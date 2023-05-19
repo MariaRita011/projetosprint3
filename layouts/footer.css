@@ -1,0 +1,27 @@
+body {
+  margin: 0%;
+  bottom: 0%;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+ margin: 0;
+}
+#linktree{
+  height: 20px;
+  width: 20px;
+}
+footer {
+      text-align: center;
+      margin: 0;
+      padding-bottom: 0;
+      border: 0;
+      margin-top: 30px;
+}
+.p1 {
+  font-size: 15px;
+  font-family: 'dubai';
+  color:whitesmoke;
+  align-items: center;
+}
+ul{
+padding: 0;
+}
