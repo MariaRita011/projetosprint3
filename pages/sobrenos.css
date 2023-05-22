@@ -141,3 +141,7 @@ section .card .image img{
     height: auto;
     background-color:#B6EADA;
     }
+
+    @media (max-width:760px) {
+        
+    }

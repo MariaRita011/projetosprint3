@@ -35,3 +35,7 @@ body {
     width: auto;
     margin-bottom: 130px;
 }
+
+@media (max-width:760px) {
+        
+}
