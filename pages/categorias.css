@@ -118,3 +118,14 @@ h2{
 .materia{
     font-size: 13px;
 }
+
+@media (max-width: 600px) {
+    .cardm-image {
+        width: 100%;
+    height: 700px;
+    }
+    .cardm-card {
+        width: 515px;
+        height: 1000px;
+    }
+}
