@@ -14,3 +14,4 @@ moviesContainers.forEach((item, i) => {
         item.scrollLeft -= countainerWidth;
     })
 })
+
