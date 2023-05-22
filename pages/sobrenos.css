@@ -1,32 +1,36 @@
-body{
-    font-family:Arial, Helvetica, sans-serif;
+body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     text-decoration: none;
     background-image: linear-gradient(#301E67, black, black, black);
-
 }
-#titulo{
+
+#titulo {
     color: aliceblue;
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 30px;
 }
-section .card .image{
+
+section .card .image {
     height: 140px;
     width: 140px;
     border-radius: 50%;
     padding: 3px;
     background-color: #5B8FB9;
 }
-section .card .image img{
+
+section .card .image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid white;
 }
+
 .card {
     position: relative;
     border-radius: 20px;
@@ -34,15 +38,17 @@ section .card .image img{
     margin: 20px 0;
     width: 280px;
 }
+
 .card .card-content {
-    padding:30px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     z-index: 100;
 }
-.card::before{
+
+.card::before {
     content: "";
     position: absolute;
     height: 45%;
@@ -50,13 +56,15 @@ section .card .image img{
     background-color: #B6EADA;
     border-radius: 20px 20px 0 0;
 }
-.countainer{
+
+.countainer {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(0, 0, 0);
 }
+
 .card .media-icons {
     position: absolute;
     top: 10px;
@@ -65,46 +73,55 @@ section .card .image img{
     flex-direction: column;
     align-items: center;
 }
-.card .media-icons i{
+
+.card .media-icons i {
     margin-top: 5px;
-    opacity: 0.6 ;
+    opacity: 0.6;
     color: rgb(33, 33, 33);
     transition: all 0.3s ease;
     cursor: pointer;
 }
-.card .media-icons i:hover{
+
+.card .media-icons i:hover {
     opacity: 1;
 }
-.card .name-profession{
+
+.card .name-profession {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
 }
-.name-profession .name{
+
+.name-profession .name {
     font-size: 20px;
     font-weight: 600;
 }
-.name-profession .profession{
+
+.name-profession .profession {
     font-size: 15px;
     font-weight: 500;
 }
-.card .rating{
+
+.card .rating {
     display: flex;
     align-items: center;
     margin-top: 18px;
 }
-.card .rating i{
+
+.card .rating i {
     color: #B6EADA;
     font-size: 18px;
     margin: 0 2px;
 }
-.card .button{
+
+.card .button {
     justify-content: center;
     margin-top: 20px;
 }
-.card .button button{
-    background:#B6EADA ;
+
+.card .button button {
+    background: #B6EADA;
     outline: none;
     border: none;
     color: black;
@@ -114,30 +131,24 @@ section .card .image img{
     transition: all 0.3s ease;
     cursor: pointer;
 }
-.button button:hover{
+
+.button button:hover {
     background: #5B8FB9;
-
 }
-.content{
+
+.content {
     display: flex;
-
 }
-#fachada{
+
+#fachada {
     width: 100%;
     height: 400px;
     text-align: center;
 }
-#banner{
+
+#banner {
     width: 90%;
-    height: 90%
+
+
+
 }
-#card{
-    border-left: 30px solid #301E67;
-    border-radius: 10px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
-    text-decoration: none;
-    height: auto;
-    background-color:#B6EADA;
-    }
