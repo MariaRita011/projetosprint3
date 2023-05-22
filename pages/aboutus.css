@@ -8,7 +8,7 @@ body {
 
 .comentario {
     display: flex;
-    margin: 10px;
+    margin: 30px;
 }
 
 #pfp {
@@ -29,11 +29,11 @@ body {
     border: 2px solid;
     background-color: rgb(33, 33, 33);
     border-radius: 10px;
-    margin: 40px;
+    margin: 80px;
     padding-right: 30px;
     display: flex;
     width: auto;
-    margin-bottom: 130px;
+
 }
 
 @media (max-width:760px) {
