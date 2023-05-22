@@ -141,10 +141,12 @@ section .card .image img{
     text-decoration: none;
     height: auto;
     background-color:#B6EADA;
+   
     }
   
     p{
         text-align: center;
+        
     }
 
     @media (max-width:600px) {
