@@ -33,9 +33,27 @@ body {
     padding-right: 30px;
     display: flex;
     width: auto;
-
 }
-@media (max-width:600px) {
+
+@media (max-width: 600px) {
+    .comentario {
+        flex-direction: column;
+        align-items: center;
+    }
     
+    #pfp {
+        width: 50%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .nomecomentario {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .caixa {
+        margin: 20px;
+    }
 }
 
