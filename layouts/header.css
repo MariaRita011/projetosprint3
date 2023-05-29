@@ -46,3 +46,7 @@ nav a:hover{
 nav a:active{
   color: #B6EADA;
 }
+
+@media (max-width: 680px) {
+
+}
