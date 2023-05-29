@@ -38,3 +38,17 @@ ul {
   width: 100%;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .p1 {
+    font-size: 25px;
+  }
+  #linktree {
+    height: 40px;
+    width: 40px;
+  }
+  #logo {
+    width: 80px;
+    height: 80px;
+  }
+}
