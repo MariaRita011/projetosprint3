@@ -48,5 +48,16 @@ nav a:active{
 }
 
 @media (max-width: 680px) {
+  #logo{
+    width: 70px;
+    height: 70px;
+  }
+  nav ul{
+    display: flex;
+    flex-direction: column;
+  }
+  div {
+    display: flex;
+  }
 
 }
