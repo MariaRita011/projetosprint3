@@ -119,6 +119,11 @@ h2{
     font-size: 13px;
 }
 
+#footer {
+    bottom: 0%;
+    position: fixed;
+}
+
 @media (max-width: 600px) {
     .cardm-image {
         width: 100%;
