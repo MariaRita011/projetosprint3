@@ -143,18 +143,25 @@ h2 {
 }
 
 #footer {
+    margin-top: 100px;
 bottom: 0;
 left: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 780px) {
     .cardm-image {
         width: 100%;
-        height: 700px;
+        height: 450px;
     }
 
     .cardm-card {
-        width: 515px;
-        height: 1000px;
+        width: 100%;
+        height: 120%;
+    }
+    .titulo-cardm {
+        font-size: 55px;
+    }
+    .cardm-nome {
+        font-size: 40px;
     }
 }
