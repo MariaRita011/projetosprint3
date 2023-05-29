@@ -32,7 +32,6 @@ ul {
 }
 
 .card {
-
   bottom: 0;
   position: fixed;
   width: 100%;
@@ -41,7 +40,7 @@ ul {
 
 @media (max-width: 600px) {
   .p1 {
-    font-size: 25px;
+    font-size: 20px;
   }
   #linktree {
     height: 40px;
@@ -50,5 +49,9 @@ ul {
   #logo {
     width: 80px;
     height: 80px;
+  }
+
+  #footer {
+bottom: 0%;
   }
 }
