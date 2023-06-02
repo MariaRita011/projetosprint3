@@ -155,11 +155,16 @@ button {
         width: 18%;
         margin-left: 42%;
     }
-
+    button{
+        width: 90%;
+         height: 120px;
+    }
+ 
+   
   
 }
 
-@media (min-width: 721px){
+@media (min-width: 781px){
     .ima{
         width: 16%;
         margin-left: 41%;
@@ -170,8 +175,8 @@ button {
         left: 0;
 
     }
-
     
+ 
     
 }
 
