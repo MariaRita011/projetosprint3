@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
 :root {
 	--primary: #03001C;
 	--secondary: #301E67;
@@ -106,6 +112,54 @@ button {
     padding-bottom: 60px;
 }
 .ima {
-    width: 15%;
+    width: 80px;
     margin-left: 500px;
+}
+#footer{
+    margin-top: 20%;
+    bottom: 0;
+    left: 0;
+}
+
+@media (max-width: 780px){
+    .card {
+    
+        width: 80%;
+        
+    }
+    .card__inner{
+        height: 120%;
+    }
+    :root {
+    width: 100%;
+    flex-direction:column ;
+        
+    }
+    .signin{
+        width: 100%;
+       
+    }
+    li{
+        font-size: 120%;
+    }
+    #footer{
+        margin-top: 40%;
+        bottom: -10;
+        left: 0;
+
+    }
+
+        .ima {
+        width: 18%;
+        margin-left: 42%;
+    }
+
+  
+}
+
+@media (min-width: 820px){
+    .ima{
+        width: 16%;
+        margin-left: 41%;
+    }
 }
