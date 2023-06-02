@@ -42,19 +42,3 @@ form{
 h1 {
     color: white;
 }
-
-@media (max-width: 600px) {
-    .button {
-        width: 200px;
-        margin: auto;
-        font-size: 23px;
-    }
-    #verificado1 {
-        width: 400px;
-        height: 400px;
-    }
- h1 {
-    font-size: 50px;
- }
-
-}

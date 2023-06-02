@@ -157,3 +157,52 @@ button:hover{
 	display: flex;
 }
 
+
+@media (max-width: 780px){
+    .card {
+    
+        width: 80%;
+        
+    }
+    .card__inner{
+        height: 120%;
+    }
+    :root {
+    width: 100%;
+    flex-direction:column ;
+        
+    }
+    .signin{
+        width: 100%;
+       
+    }
+    li{
+        font-size: 120%;
+    }
+    #footer{
+        margin-top: 40%;
+        bottom: -10;
+        left: 0;
+
+    }
+
+        .ima {
+        width: 18%;
+        margin-left: 42%;
+    }
+
+  
+}
+
+@media (min-width: 781px){
+    .ima{
+        width: 16%;
+        margin-left: 41%;
+    }
+    #footer{
+        margin-top: 40%;
+        bottom: -10;
+        left: 0;
+
+    }
+}
