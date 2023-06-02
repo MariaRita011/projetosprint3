@@ -180,26 +180,22 @@ button:hover{
         font-size: 120%;
     }
     #footer{
-        margin-top: 40%;
-        bottom: 0;
-        left: 0;
-
-    }
-
-  
-
-  
-}
-
-@media (min-width: 781px){
-    .ima{
-        width: 16%;
-        margin-left: 41%;
-    }
-    #footer{
-        margin-top: 40%;
+        margin-top: 55%;
         bottom: -10;
         left: 0;
 
     }
+
+
+  
+}
+
+@media (min-width: 721px){
+    #footer{
+        margin-top: 15%;
+        bottom: -10;
+        left: 0;
+
+    }
+
 }

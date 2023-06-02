@@ -1,4 +1,5 @@
 
+
 *{
     padding: 0;
     margin: 0;
@@ -158,15 +159,19 @@ button {
   
 }
 
-@media (min-width: 781px){
+@media (min-width: 721px){
     .ima{
         width: 16%;
         margin-left: 41%;
     }
     #footer{
-        margin-top: 40%;
+        margin-top: 15%;
         bottom: -10;
         left: 0;
 
     }
+
+    
+    
 }
+
