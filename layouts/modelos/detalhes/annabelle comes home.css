@@ -99,14 +99,14 @@ hr{
         
     }
 
-    #texto2 {
+    .texto2 {
         text-align: center;
     }
 
    div {
     width: 100%;
    }
-   #info {
+   .info {
     width: 100%;
     align-items: center;
    }
