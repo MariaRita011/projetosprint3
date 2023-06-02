@@ -289,5 +289,10 @@ h2{
 @media (max-width: 600px) {
     section, aside {
         width: 100%;
+        padding: 0;
+    }
+    #fotos {
+        width: 100%;
+        display: flex;
     }
 }
