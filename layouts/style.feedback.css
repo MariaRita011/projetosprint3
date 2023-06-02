@@ -181,15 +181,12 @@ button:hover{
     }
     #footer{
         margin-top: 40%;
-        bottom: -10;
+        bottom: 0;
         left: 0;
 
     }
 
-        .ima {
-        width: 18%;
-        margin-left: 42%;
-    }
+  
 
   
 }
