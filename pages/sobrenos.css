@@ -36,6 +36,7 @@ section .card .image img {
     background: #301E67;
     margin: 20px 0;
     width: 280px;
+   
 }
 
 .card .card-content {
@@ -151,15 +152,25 @@ section .card .image img {
 }
 
 #banner {
-    width: 95%;
-    height: 90%;
+    width: 70%;
+    height:80%;
+    margin-top: 7%;
+    margin-bottom: -5%;
+    
 }
 
 h1{
     color: white;
+
 }
 
 p{
     color: white;
     text-align: center;
+}
+
+@media (max-width: 600px) {
+   #banner{
+   margin-bottom: 30%;
+   }
 }
