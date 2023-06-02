@@ -90,3 +90,7 @@ hr{
     outline: none;
     width: 1000px;
 }
+
+@media (max-width: 780px) {
+    
+}
