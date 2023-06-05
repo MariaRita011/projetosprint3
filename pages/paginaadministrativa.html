@@ -10,6 +10,9 @@
     <title>Administrativo</title>
 </head>
 <body>
+    <iframe src="../layouts/header.html" frameborder="0" scrolling="no" width="100%" ></iframe>
+    <h1 id="titulotext">Painel Administrativo</h1>
+    <div id="painel">
     <label for="">Título</label>
     <input id="titulo" type="text">
     <label for="">Resumo</label>
@@ -20,6 +23,10 @@
     <input id="autor" type="text">
     <label for="">Data de publicação</label>
     <input id="data" type="date">
-    <button type="button" onclick="adicionar()" >Adicionar</button>
+    <div id="div_button">
+        <button type="button" onclick="adicionar()" >Adicionar</button>
+    </div>
+</div>
+<iframe id="footer" src="../layouts/footer.html" width="100%" frameborder="0"></iframe>
 </body>
 </html>
