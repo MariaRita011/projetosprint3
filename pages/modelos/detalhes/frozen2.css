@@ -10,10 +10,7 @@ ul{
     text-decoration: none;
     list-style: none;
 }
-li:hover{
-     background-color: rgb(54, 54, 54);
-        border-radius: 30px;
-}
+
 #filmeinfo{
     color:aliceblue;
     justify-content: center;
@@ -88,5 +85,81 @@ li {
 hr{
     opacity: 0.2;
     outline: none;
-    width: 1000px;
+}
+
+#trailertext {
+    margin: 10px;
+    font-size: 40px;
+    display: none;
+    text-align: center;
+}
+#logoytb {
+    display: none;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 25px;
+        margin: 0 10px;
+    }
+    #info {
+        flex-direction: column;
+    }
+    #ytmini {
+        display: none;
+     }
+     #logoytb {
+        display: block;
+        width: 60%;
+        margin: auto;
+    }
+    li {
+        text-align: left;
+        padding: 0;
+        margin: 10px;
+        text-align: left;
+        font-size: 23px;
+    }
+
+    ul {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    #generos ul {
+        margin: 0 10px;
+    }
+    #capa {
+        width: 80%;
+        height: 160%;
+    }
+    #poster {
+        text-align: center;
+    }
+    .ondeass {
+        width: 100px;
+        height: 100px;
+    }
+    #trailertext {
+        display: block;
+    }
+    .onde {
+        text-align: center;
+    }
+    .nomecomentario {
+        font-size: 30px;
+    }
+    .reviewetc {
+        margin: 10px;
+        text-align: justify;
+        margin-right: -10px;
+        font-size: 20px;
+    }
+    #pfp {
+        width: 60px;
+        height: 60px;
+    }
+    .texto2 {
+        font-size: 20px;
+        text-align: justify;
+    }
 }
