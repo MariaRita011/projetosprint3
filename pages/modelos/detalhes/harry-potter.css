@@ -11,10 +11,6 @@ ul{
     text-decoration: none;
     list-style: none;
 }
-li:hover{
-     background-color: rgb(54, 54, 54);
-        border-radius: 30px;
-}
 #filmeinfo{
     color:aliceblue;
     justify-content: center;
@@ -74,6 +70,12 @@ li {
 #channels{
     justify-content: center;
 }
+
+#trailertext {
+    margin: 10px;
+    font-size: 40px;
+    display: none;
+}
 .comentario{
     display: flex;
     margin: 10px;
@@ -89,8 +91,88 @@ li {
 hr{
     opacity: 0.2;
     outline: none;
-    width: 1000px;
 }
 #coiso{
     display: flex;
+}
+#logoytb {
+    display: none;
+}
+#trailertext {
+    margin: 10px;
+    font-size: 40px;
+    display: none;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        text-align: left;
+        padding: 0;
+        margin: 10px;
+        text-align: left;
+        font-size: 23px;
+    }
+    h1 {
+        font-size: 25px;
+        margin: 0 10px;
+    }
+    #info {
+        flex-direction: column;
+    }
+    #logoytb {
+        display: block;
+        width: 60%;
+        margin: auto;
+    }
+    #ytmini {
+       display: none;
+    }
+    #generos ul {
+        margin: 0 10px;
+    }
+    .texto2 {
+        font-size: 20px;
+        text-align: justify;
+    }
+    #filmeinfo {
+        margin: 0 10px;
+    }
+    #capa {
+        width: 80%;
+        height: 160%;
+    }
+
+    #poster {
+        text-align: center;
+    }
+    .ondeass {
+        width: 100px;
+        height: 100px;
+    }
+    .onde {
+        text-align: center;
+    }
+    #pfp {
+        width: 60px;
+        height: 60px;
+    }
+    .nomecomentario {
+        font-size: 30px;
+    }
+    .reviewetc {
+        margin: 10px;
+        text-align: justify;
+        margin-right: -10px;
+        font-size: 20px;
+    }
+    #trailertext {
+        display: block;
+        text-align: center;
+    }
 }

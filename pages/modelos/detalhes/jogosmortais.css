@@ -1,10 +1,15 @@
 body {
     font-family: 'dubai medium';
-    background-image: linear-gradient(#939ba9, black, black);
+    background-image: linear-gradient(#80882b, black, black);
     color: aliceblue;
-    color: aliceblue;
-    padding: 0%;
-    margin: 0%;
+    margin: 0;
+    padding: 0;
+
+}
+
+iframe {
+    margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -118,7 +123,6 @@ hr {
 #logoytb {
     display: none;
 }
-
 @media (max-width: 768px) {
     h1 {
         font-size: 25px;
@@ -141,62 +145,50 @@ hr {
         margin: 0;
         padding: 0;
     }
-
     #capa {
         width: 80%;
         height: 160%;
     }
-
     #poster {
         text-align: center;
     }
-
     #ytmini {
         display: none;
     }
-
-    #trailertext {
-        display: block;
-    }
-
     #logoytb {
         display: block;
         width: 60%;
         margin: auto;
     }
-
     #generos ul {
-        margin: 0 10px;
+margin: 0 10px;
     }
-
     .texto2 {
         font-size: 20px;
         text-align: justify;
     }
-
     .ondeass {
         width: 100px;
         height: 100px;
     }
-
     #onde {
         text-align: center;
     }
-
     #pfp {
         width: 60px;
         height: 60px;
 
     }
-
     .nomecomentario {
         font-size: 30px;
     }
-
     .reviewetc {
         margin: 10px;
         text-align: justify;
         margin-right: -10px;
         font-size: 20px;
+    }
+    #trailertext {
+        display: block;
     }
 }

@@ -1,6 +1,6 @@
 body {
     font-family: 'dubai medium';
-    background-image: linear-gradient(#939ba9, black, black);
+    background-image: linear-gradient(#364d62, black, black);
     color: aliceblue;
     color: aliceblue;
     padding: 0%;
@@ -11,11 +11,6 @@ ul {
     display: flex;
     text-decoration: none;
     list-style: none;
-}
-
-li:hover {
-    background-color: rgb(54, 54, 54);
-    border-radius: 30px;
 }
 
 #filmeinfo {
@@ -108,15 +103,15 @@ hr {
     outline: none;
 }
 
+#logoytb {
+    display: none;
+}
+
 #trailertext {
     margin: 10px;
     font-size: 40px;
     display: none;
     text-align: center;
-}
-
-#logoytb {
-    display: none;
 }
 
 @media (max-width: 768px) {
@@ -127,6 +122,10 @@ hr {
 
     #info {
         flex-direction: column;
+    }
+
+    #ytmini {
+        display: none;
     }
 
     li {
@@ -151,12 +150,8 @@ hr {
         text-align: center;
     }
 
-    #ytmini {
-        display: none;
-    }
-
-    #trailertext {
-        display: block;
+    #generos ul {
+        margin: 0 10px;
     }
 
     #logoytb {
@@ -164,35 +159,27 @@ hr {
         width: 60%;
         margin: auto;
     }
-
-    #generos ul {
-        margin: 0 10px;
+    #trailertext {
+        display: block;
     }
-
     .texto2 {
         font-size: 20px;
         text-align: justify;
     }
-
     .ondeass {
         width: 100px;
         height: 100px;
     }
-
-    #onde {
+    .onde1 {
         text-align: center;
     }
-
     #pfp {
         width: 60px;
         height: 60px;
-
     }
-
     .nomecomentario {
         font-size: 30px;
     }
-
     .reviewetc {
         margin: 10px;
         text-align: justify;
