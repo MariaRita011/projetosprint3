@@ -184,4 +184,16 @@ hr {
     #trailertext {
         display: block;
     }
+    .nomecomentario {
+        font-size: 30px;
+    }
+    #pfp {
+        width: 60px;
+        height: 60px;
+    }
+    .reviewetc {
+        margin: 10px;
+        text-align: justify;
+        margin-right: -10px;
+    }
 }
