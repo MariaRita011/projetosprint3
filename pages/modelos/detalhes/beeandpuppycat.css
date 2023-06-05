@@ -10,6 +10,12 @@ ul{
     text-decoration: none;
     list-style: none;
 }
+
+#yt{
+    margin-left: 25%;
+    width: 35vh;
+}
+
 li{
         border-radius: 30px;
 }
