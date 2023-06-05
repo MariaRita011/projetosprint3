@@ -157,3 +157,61 @@ button:hover{
 	display: flex;
 }
 
+
+@media (max-width: 780px){
+    .card {
+    
+        width: 80%;
+        
+    }
+    .card__inner{
+        height: 120%;
+    }
+    :root {
+    width: 100%;
+    flex-direction:column ;
+        
+    }
+    .signin{
+        width: 100%;
+       
+    }
+    li{
+        font-size: 120%;
+    }
+    #footer{
+thayna
+        margin-top: 55%;
+        bottom: -10;
+
+        margin-top: 20%;
+        padding: 0;
+ main
+        left: 0;
+
+    }
+
+ thayna
+
+        .ima {
+        width: 18%;
+        margin-left: 42%;
+    }
+ main
+
+  
+}
+
+thayna
+@media (min-width: 781px){
+    #footer{
+        margin-top: 15%;
+        bottom: -10;
+        left: 0;
+
+    }
+
+}
+
+
+ main

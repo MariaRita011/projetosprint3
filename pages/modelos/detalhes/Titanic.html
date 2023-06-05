@@ -6,15 +6,21 @@
     <link rel="stylesheet" href="Titanic.css">
     <link rel="shortcut icon" href="../../assets/images/logotitico.png" type="image/x-icon">
     <title>Titanic</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <iframe href="../header.html" frameborder="0" scrolling="no"></iframe>
+    <iframe src="../../../layouts/header.html" width="100%" frameborder="0" scrolling="no"></iframe>
     <div id="tituloinicio">
         <h1>Titanic</h1>
     </div>
-    <p>Filme, Lançamento: 19 de dezembro 1997, classificação: restrita para menores de 12 anos, Duração: 195 min</p>
-    </div>
+    <ul>
+        <li>Lançamento: 1997</li>
+        <li>Duração: 3h 15m</li>
+        <li>Classificação: +12 anos</li>
+    </ul>
+</div>
     <div id="info">
         <div id="poster">
             <section>
@@ -22,16 +28,21 @@
             </section>
         </div>
         <div id="trailer">
+            <h1 id="trailertext">Trailer</h1>
+            <a href="https://www.youtube.com/embed/IH6_CA_ocqY" target="_blank">
+                <p class="centralizar"><img src="../../../assets/images/youtube-logo.png" alt="Logo Youtube"
+                        id="logoytb"></p>
+            </a>
             <!--colocar "embed" no link e tirar o "watch"-->
 
-            <iframe src="https://www.youtube.com/embed/IH6_CA_ocqY" frameborder="0" width="600" height="340"></iframe>
+            <iframe id="ytmini" src="https://www.youtube.com/embed/IH6_CA_ocqY" frameborder="0" width="600" height="340"></iframe>
         </div>
     </div>
     <nav id="generos">
         <ul>
-            <li><a href="#" target="_parent" id="generos">Épico</a></li>
-            <li><a href="#" target="_parent" id="generos">Drama</a></li>
-            <li><a href="#" target="_parent" id="generos">Romance</a></li>
+            <li>Épico</li>
+            <li>Drama</li>
+            <li>Romance</li>
         </ul>
     </nav>
     <hr>
@@ -59,16 +70,16 @@
         <h1 id="titulowhere">onde assistir</h1>
         <ul id="channels">
             <div>
-                <img src="../../assets/images/vexxlogo.png" alt="a" class="ondeass">
-                <li>Alugar/Comprar</li>
+                <img src="../../../assets/images/claro video.png" alt="a" class="ondeass">
+                <li id="onde" >claro videos</li>
             </div>
             <div>
-                <img src="../../assets/images/vexxlogo.png" alt="a" class="ondeass">
-                <li>Assinatura</li>
+                <img src="../../../assets/images/download.png" alt="a" class="ondeass">
+                <li id="onde" >prime video </li>
             </div>
             <div>
-                <img src="../../assets/images/vexxlogo.png" alt="a" class="ondeass">
-                <li>Alugar/Comprar</li>
+                <img src="../../../assets/images/appletv.jfif" alt="a" class="ondeass">
+                <li id="onde" >aple tv</li>
             </div>
     </div>
     <hr>
@@ -77,7 +88,7 @@
     <div class="caixa">
         <section>
             <div class="comentario">
-                <img id="pfp" src="./imagensmodelo/placeholder3.png">
+                <img id="pfp" src="../../../assets/images/Fabio.jpg">
                 <div>
                     <h1 class="nomecomentario">Jack</h1>
                     <p class="reviewetc">O filme Titanic é um clássico épico que cativa o espectador do começo ao fim. A história de amor entre Jack e Rose é
@@ -92,7 +103,7 @@
         <div class="caixa">
             <section>
                 <div class="comentario">
-                    <img id="pfp" src="./imagensmodelo/placeholder3.png">
+                    <img id="pfp" src="../../../assets/images/Maria clara.jpg">
                     <div>
                         <h1 class="nomecomentario">Rose</h1>
                         <p class="reviewetc">Titanic é um filme que permanece relevante e emocionante mesmo depois de mais de 20 anos desde seu lançamento.
@@ -105,7 +116,7 @@
                 </div>
             </section>
             </div>
-    <iframe href="../footer.html" frameborder="0" scrolling="no"></iframe>
+            <iframe src="../../../layouts/footer.html" width="100%" frameborder="0" scrolling="no"></iframe>
 </body>
 
 </html>

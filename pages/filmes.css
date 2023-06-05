@@ -181,6 +181,7 @@ z-index: 9;
 }
 
 @media (max-width: 600px) {
+
     .main {
         flex-direction: column;
     }
@@ -233,4 +234,9 @@ z-index: 9;
         height: 100px;
         padding: 0;
     }
+
+section, aside {
+    width: 100%;
+    padding: 0;
+}
 }
