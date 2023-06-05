@@ -107,6 +107,10 @@ hr{
     }
     li {
         text-align: left;
+        padding: 0;
+        margin: 10px;
+        text-align: left;
+        font-size: 23px;
     }
     h1 {
         font-size: 25px;
@@ -164,11 +168,5 @@ hr{
     #trailertext {
         display: block;
         text-align: center;
-    }
-    li {
-        padding: 0;
-        margin: 10px;
-        text-align: left;
-        font-size: 23px;
     }
 }
