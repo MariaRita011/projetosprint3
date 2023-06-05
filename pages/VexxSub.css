@@ -1,28 +1,12 @@
- thayna
-
-
-
- main
-*{
-    padding: 0;
-    margin: 0;
-}
-
 
 :root {
     --primary: #03001C;
     --secondary: #301E67;
     --tertiary: #5B8FB9;
-    
     --dark: #212121;
     --light: #f3f3f3;
-
     --white: #fff;
-
-    
-
-    --background-image: url("../images/background.jpg")
-    
+    --background-image: url("../images/background.jpg")   
 }
 * {
     margin: 0;
@@ -125,12 +109,7 @@ button {
     bottom: 0;
     left: 0;
 }
-
- thayna
-@media (max-width: 760px){
-
 @media (max-width: 780px){
- main
     .card {
     
         width: 80%;
@@ -150,24 +129,19 @@ button {
     }
     li{
         font-size: 120%;
-thayna
         margin-top: 5%;
- main
+
     }
     #footer{
         margin-top: 40%;
         bottom: -10;
         left: 0;
-
     }
-
         .ima {
- thayna
         width: 30%;
         margin-left: 33%;
     }
     button{
-       
         width: 90%;
         height: 120px;
         margin-top: -12%;
@@ -175,35 +149,4 @@ thayna
     .Seja{
         margin-top: 4%;
     }
- 
-   
-  
 }
-
-@media (min-width: 761px){
-
-        width: 18%;
-        margin-left: 42%;
-    }
-
-  
-}
-
-@media (min-width: 820px){
- main
-    .ima{
-        width: 16%;
-        margin-left: 41%;
-    }
-thayna
-   
-  
-   
-    
- 
-    
-}
-
-
-}
-main
