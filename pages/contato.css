@@ -156,7 +156,8 @@ button:hover {
     
     color: var(--light);
     background-color: var(--dark);
-    transform: rotateY(180deg);    display: flex;
+    transform: rotateY(180deg);
+        display: flex;
     justify-content: center;
 }
 #footer {
