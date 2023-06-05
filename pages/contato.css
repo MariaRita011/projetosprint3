@@ -152,6 +152,11 @@ button:hover {
 }
 
 .card__face--back {
+    
+    
+    
+    
+    
     color: var(--light);
     background-color: var(--dark);
     transform: rotateY(180deg);
