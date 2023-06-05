@@ -11,7 +11,7 @@
     
 
     --background-image: url("../images/background.jpg")
-	
+
 }
 
 @font-face {
@@ -156,26 +156,45 @@ button:hover{
 	justify-content: center;
 } 
 
-
 @media (max-width: 768px) {
-    h2 {
-    font-size: 9rem;
-    margin-bottom: 1.2rem;
-} 
-
-.signin, .signup {
-    margin-top: 20px;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    text-align: center;
-
-    color: var(--white);
-}
-}
-@media (max-width: 600px) {
-    form{
-        width: 400px;
-        height: 450px;
+    .signin,
+    .signup {
+        margin-top: 11%;
+    } 
+    .form input {
+        width: 85%;
+        justify-content: center;
     }
-}
+    button {
+        font-size: 1.5rem;
+
+    }
+    .card {
+        margin: 70% auto 0;
+        width: 100%;
+        height: 85%;
+        perspective: 1000px;
+    }
+    .form input{
+        width: 80%;
+        outline: none !important;
+        border: none;
+        padding: 12px 20px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        justify-content: center;
+    }
+    }
+    
+    @media (min-width: 781px){
+        .ima{
+            width: 16%;
+            margin-left: 41%;
+        }
+        #footer{
+            margin-top: 15%;
+            bottom: -10;
+            left: 0;
+    
+        }  
+    }
