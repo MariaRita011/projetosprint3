@@ -181,13 +181,46 @@ z-index: 9;
 }
 
 @media (max-width: 600px) {
-    section, aside {
+    .main {
+        flex-direction: column;
+    }
+
+    .galery,
+    .asaide {
         width: 100%;
+        padding: 20px;
+        
+       
+    }
+
+    .galery .fotos a {
+        display: flex;
+        margin-bottom: 10px;
+        text-align: center;
     }
 
     .asaide {
+        order: -1;
+        display: flex;
+       
+    }
+
+    .card2 {
         width: 100%;
-        padding: 0;
-        float: none;
+        display: flex;
+    }
+
+    .imagemdestaque {
+        width: 100%;
+
+    }
+
+    .materia {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 40px;
+        position:relative;
     }
 }
