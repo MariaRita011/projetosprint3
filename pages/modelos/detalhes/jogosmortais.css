@@ -113,6 +113,13 @@ hr {
     outline: none;
 }
 
+#trailertext {
+    margin: 10px;
+    font-size: 40px;
+    display: none;
+    text-align: center;
+}
+
 #logoytb {
     display: none;
 }
@@ -180,5 +187,8 @@ margin: 0 10px;
         text-align: justify;
         margin-right: -10px;
         font-size: 20px;
+    }
+    #trailertext {
+        display: block;
     }
 }
