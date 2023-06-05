@@ -11,14 +11,12 @@ ul{
     list-style: none;
 }
 li{
-     background-color: rgb(54, 54, 54);
         border-radius: 30px;
 }
 #filmeinfo{
     color:aliceblue;
     justify-content: center;
     border: 2px solid;
-    background-color: rgb(33, 33, 33);
     border-radius: 10px;
     margin: 40px;
     padding-right: 30px;
@@ -41,7 +39,6 @@ li{
     color:aliceblue;
     justify-content: center;
     border: 2px solid;
-    background-color: rgb(33, 33, 33);
     border-radius: 10px;
     margin: 40px;
     padding-right: 30px;
@@ -93,8 +90,54 @@ h1{
 hr{
     opacity: 0.2;
     outline: none;
-    width: 1000px;
 }
 #titulo{
     font-size: 400%;
 }
+
+  @media (max-width: 600px) {
+            body {
+                overflow-x: hidden;
+                font-size: 20px;
+            }
+
+            #tituloinicio h1 {
+                text-align: center;
+                font-size: 24px;
+                margin-bottom: -5%;
+         }
+         ul {
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        #info {
+            display: inline;
+        }
+
+        .classi{
+            text-align: left;
+        }
+
+        li {
+            text-align: left;
+        }
+
+        #capa{
+            align-items: center;
+            width: 60%;
+            height: auto;
+            margin-left: 21%;
+
+        }
+
+        #trailer{
+                
+            width: 80%;
+            height: 30%;
+        }
+
+    }
