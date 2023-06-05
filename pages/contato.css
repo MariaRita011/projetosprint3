@@ -151,7 +151,8 @@ button:hover {
     justify-content: center;
 }
 
-.card__face--back {color: var(--light);
+.card__face--back {
+    color: var(--light);
     background-color: var(--dark);
     transform: rotateY(180deg);
 
