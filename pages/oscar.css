@@ -290,4 +290,39 @@ h2{
     transform: scale(1) translateZ(0);
     box-shadow: 0 15px 24px rgba(0,0,0,0.11);
 }
+@media (max-width: 600px) {
+    .main {
+        flex-direction: column;
+    }
 
+    .galery,
+    .asaide {
+        width: 100%;
+        padding: 20px;
+        
+       
+    }
+
+    .galery .fotos a {
+        display: flex;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .asaide {
+        order: -1;
+        display: flex;
+       
+    }
+
+    .card2 {
+        width: 100%;
+        display: flex;
+    }
+ #videoOscar {
+    display: flex;
+    float: none;
+    padding: 0;
+    justify-content: center;
+ }
+}
