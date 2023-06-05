@@ -337,7 +337,7 @@
         box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11);
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
         .main {
             flex-direction: column;
         }
@@ -346,19 +346,24 @@
         .asaide {
             width: 100%;
             padding: 20px;
+            
+           
         }
 
         .galery .fotos a {
-            display: block;
+            display: flex;
             margin-bottom: 10px;
             text-align: center;
         }
 
         .asaide {
             order: -1;
+            display: flex;
+           
         }
 
         .card2 {
             width: 100%;
+            display: flex;
         }
     }
