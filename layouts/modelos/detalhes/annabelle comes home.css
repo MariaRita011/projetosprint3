@@ -91,3 +91,24 @@ hr{
     outline: none;
     width: 1000px;
 }
+
+@media (max-width: 600px) {
+    section {
+        text-align: center;
+        width: 100%;
+        
+    }
+
+    .texto2 {
+        text-align: center;
+    }
+
+   div {
+    width: 100%;
+   }
+   .info {
+    width: 100%;
+    align-items: center;
+   }
+}
+

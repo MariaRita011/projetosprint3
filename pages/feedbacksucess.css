@@ -34,13 +34,15 @@ form{
 }
 
 #footer {
-    position: fixed;
     bottom:0;
     left:0;
 }
 
 h1 {
     color: white;
+ thayna
+}
+
 }
 
 @media (max-width: 600px) {
@@ -58,3 +60,4 @@ h1 {
  }
 
 }
+ main
