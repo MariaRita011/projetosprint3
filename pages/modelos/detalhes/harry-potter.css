@@ -89,10 +89,12 @@ li {
 hr{
     opacity: 0.2;
     outline: none;
-    width: 1000px;
 }
 #coiso{
     display: flex;
+}
+#logoytb {
+    display: none;
 }
 
 @media (max-width: 768px) {
@@ -107,5 +109,41 @@ hr{
     h1 {
         font-size: 25px;
         margin: 0 10px;
+    }
+    #info {
+        flex-direction: column;
+    }
+    #logoytb {
+        display: block;
+        width: 60%;
+        margin: auto;
+    }
+    #ytmini {
+       display: none;
+    }
+    #generos ul {
+        margin: 0 10px;
+    }
+    .texto2 {
+        font-size: 20px;
+        text-align: justify;
+    }
+    #filmeinfo {
+        margin: 0 10px;
+    }
+    #capa {
+        width: 80%;
+        height: 160%;
+    }
+
+    #poster {
+        text-align: center;
+    }
+    .ondeass {
+        width: 100px;
+        height: 100px;
+    }
+    .onde {
+        text-align: center;
     }
 }
