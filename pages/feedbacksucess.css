@@ -34,11 +34,30 @@ form{
 }
 
 #footer {
-    position: fixed;
     bottom:0;
     left:0;
 }
 
 h1 {
     color: white;
+ thayna
 }
+
+}
+
+@media (max-width: 600px) {
+    .button {
+        width: 200px;
+        margin: auto;
+        font-size: 23px;
+    }
+    #verificado1 {
+        width: 400px;
+        height: 400px;
+    }
+ h1 {
+    font-size: 50px;
+ }
+
+}
+ main

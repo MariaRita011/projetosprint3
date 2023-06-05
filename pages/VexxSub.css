@@ -1,5 +1,8 @@
+ thayna
 
 
+
+ main
 *{
     padding: 0;
     margin: 0;
@@ -123,7 +126,11 @@ button {
     left: 0;
 }
 
+ thayna
 @media (max-width: 760px){
+
+@media (max-width: 780px){
+ main
     .card {
     
         width: 80%;
@@ -143,7 +150,9 @@ button {
     }
     li{
         font-size: 120%;
+thayna
         margin-top: 5%;
+ main
     }
     #footer{
         margin-top: 40%;
@@ -153,6 +162,7 @@ button {
     }
 
         .ima {
+ thayna
         width: 30%;
         margin-left: 33%;
     }
@@ -171,10 +181,21 @@ button {
 }
 
 @media (min-width: 761px){
+
+        width: 18%;
+        margin-left: 42%;
+    }
+
+  
+}
+
+@media (min-width: 820px){
+ main
     .ima{
         width: 16%;
         margin-left: 41%;
     }
+thayna
    
   
    
@@ -183,3 +204,6 @@ button {
     
 }
 
+
+}
+main

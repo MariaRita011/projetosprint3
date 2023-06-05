@@ -180,16 +180,29 @@ button:hover{
         font-size: 120%;
     }
     #footer{
+thayna
         margin-top: 55%;
         bottom: -10;
+
+        margin-top: 20%;
+        padding: 0;
+ main
         left: 0;
 
     }
 
+ thayna
+
+        .ima {
+        width: 18%;
+        margin-left: 42%;
+    }
+ main
 
   
 }
 
+thayna
 @media (min-width: 781px){
     #footer{
         margin-top: 15%;
@@ -199,3 +212,6 @@ button:hover{
     }
 
 }
+
+
+ main
