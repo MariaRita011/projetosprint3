@@ -136,13 +136,7 @@ h1{
                 flex-direction: column;
                 padding-right: 10px;
                 width: auto;
-                margin-left: 5px;
-            }
-
-            #capa {
-                width: 100%;
-                height: auto;
-                margin-left: 21%;
+              
             }
 
             #info{
@@ -150,8 +144,8 @@ h1{
             }
 
             #capa{
-                align-items: center;
-                width: 60%;
+                width: 80%;
+                height: 160%;
             }
 
             .caixa {
@@ -160,4 +154,7 @@ h1{
                 padding-right: 10px;
                 width: auto;
             }
+             section{
+                margin-left: 5%;
+             }
         }
