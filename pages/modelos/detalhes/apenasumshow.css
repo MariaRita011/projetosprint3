@@ -10,10 +10,6 @@ ul{
     text-decoration: none;
     list-style: none;
 }
-li:hover{
-     background-color: rgb(54, 54, 54);
-        border-radius: 30px;
-}
 #filmeinfo{
     color:aliceblue;
     justify-content: center;
@@ -41,7 +37,6 @@ li:hover{
     color:aliceblue;
     justify-content: center;
     border: 2px solid;
-    background-color: rgb(33, 33, 33);
     border-radius: 10px;
     margin: 40px;
     padding-right: 30px;
@@ -65,7 +60,6 @@ li {
     margin-left: 5px;
     text-align: center;
     padding: 10px;
-    background-color: rgb(54, 54, 54);
     border-radius: 30px;
 }
 #where{
@@ -92,7 +86,6 @@ li {
 hr{
     opacity: 0.2;
     outline: none;
-    width: 1000px;
 }
 #titulo{
     font-size: 400%;
@@ -105,15 +98,33 @@ h1{
         /* Responsivo */
         @media (max-width: 600px) {
             body {
+                overflow-x: hidden;
                 font-size: 20px;
             }
 
+            #trailer{
+                
+                width: 80%;
+                height: 30%;
+            }
+
             #tituloinicio h1 {
+                text-align: center;
                 font-size: 24px;
+                margin-bottom: -5%;
             }
 
             ul {
-                flex-direction: column;
+                display: inline;
+                margin-left: 0%;
+            }
+
+            li {
+                text-align: left;
+                padding: 0;
+                margin: 10px;
+                text-align: left;
+                font-size: 23px;
             }
 
             #generos ul {
@@ -123,15 +134,15 @@ h1{
 
             #filmeinfo {
                 flex-direction: column;
-                margin: 20px;
                 padding-right: 10px;
                 width: auto;
+                margin-left: 5px;
             }
 
             #capa {
                 width: 100%;
                 height: auto;
-                margin: 0;
+                margin-left: 21%;
             }
 
             #info{
@@ -139,6 +150,7 @@ h1{
             }
 
             #capa{
+                align-items: center;
                 width: 60%;
             }
 
