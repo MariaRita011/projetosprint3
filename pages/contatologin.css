@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 :root {
 	--primary: #03001C;
 	--secondary: #301E67;
@@ -11,7 +16,7 @@
     
 
     --background-image: url("../images/background.jpg")
-
+	
 }
 
 @font-face {
@@ -156,45 +161,19 @@ button:hover{
 	justify-content: center;
 } 
 
-@media (max-width: 768px) {
-    .signin,
-    .signup {
-        margin-top: 11%;
-    } 
-    .form input {
-        width: 85%;
-        justify-content: center;
-    }
-    button {
-        font-size: 1.5rem;
+#footer {
+    margin-top: 20%; 
+    bottom: 0;
+    left: 0;
+}
 
-    }
-    .card {
-        margin: 70% auto 0;
-        width: 100%;
-        height: 85%;
-        perspective: 1000px;
-    }
-    .form input{
+@media (max-width: 760px) {
+    .card{
         width: 80%;
-        outline: none !important;
-        border: none;
-        padding: 12px 20px;
-        margin-bottom: 10px;
-        border-radius: 20px;
-        justify-content: center;
     }
+    footer{
+        position: fixed;
+        margin-bottom: -5px;
     }
-    
-    @media (min-width: 781px){
-        .ima{
-            width: 16%;
-            margin-left: 41%;
-        }
-        #footer{
-            margin-top: 15%;
-            bottom: -10;
-            left: 0;
-    
-        }  
-    }
+}
+

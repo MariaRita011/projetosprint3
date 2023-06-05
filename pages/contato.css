@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 :root {
     --primary: #03001C;
     --secondary: #301E67;
@@ -154,38 +159,18 @@ button:hover {
     display: flex;
     justify-content: center;
 }
-
-@media (max-width: 768px) {
-.signin,
-.signup {
-    margin-top: 11%;
-} 
-.form input {
-    width: 85%;
-    justify-content: center;
-}
-button {
-    font-size: 1.5rem;
-}
-.card {
-    margin: 80% auto 0;
-    width: 85%;
-    height: 85%;
-    perspective: 1000px;
+#footer {
+    margin-top: 20%; 
+    bottom: 0;
+    left: 0;
 }
 
-}
-
-@media (min-width: 781px){
-    .ima{
-        width: 16%;
-        margin-left: 41%;
+@media (max-width: 760px) {
+    .card{
+        width: 80%;
     }
-    #footer{
-        margin-top: 15%;
-        bottom: -10;
-        left: 0;
-
-    }  
+    footer{
+        position: fixed;
+        margin-bottom: -5px;
+    }
 }
-
