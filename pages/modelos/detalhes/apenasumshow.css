@@ -100,3 +100,52 @@ hr{
 h1{
     padding-left: 30px;
 }
+
+
+        /* Responsivo */
+        @media (max-width: 600px) {
+            body {
+                font-size: 20px;
+            }
+
+            #tituloinicio h1 {
+                font-size: 24px;
+            }
+
+            ul {
+                flex-direction: column;
+            }
+
+            #generos ul {
+                margin-left: 0;
+                padding: 0;
+            }
+
+            #filmeinfo {
+                flex-direction: column;
+                margin: 20px;
+                padding-right: 10px;
+                width: auto;
+            }
+
+            #capa {
+                width: 100%;
+                height: auto;
+                margin: 0;
+            }
+
+            #info{
+                display: inline;
+            }
+
+            #capa{
+                width: 60%;
+            }
+
+            .caixa {
+                flex-direction: column;
+                margin: 20px;
+                padding-right: 10px;
+                width: auto;
+            }
+        }
