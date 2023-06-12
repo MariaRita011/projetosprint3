@@ -8,7 +8,6 @@
     --background-image: url("../images/background.jpg")
 }
 
-
 @font-face {
     font-family: Poppins;
     src: url(css/Poppins-Medium.ttf);
@@ -22,7 +21,6 @@
 
 body {
     background-image: var(--background-image);
-    background-repeat: no-repeat;
     background-size: cover;
     background-image: linear-gradient(#301E67, #301E67, black, black);
     margin: 0;
@@ -159,22 +157,18 @@ button:hover {
     left: 0;
 }
 
-
 @media (max-width: 780px) {
     .card {
         width: 80%;
     }
-
     .card__inner {
         height: 120%;
     }
-
     :root {
         width: 100%;
         flex-direction: column;
 
     }
-
     .signin {
         width: 100%;
     }
@@ -186,5 +180,8 @@ button:hover {
     .ima {
         width: 18%;
         margin-left: 42%;
+    }
+    #footer {
+        margin-top: 50%;
     }
 }
