@@ -180,10 +180,19 @@ box-shadow: 0px 0px 17px 8px rgba(113,105,139,1);
     justify-content: center;
 }
 
+.card-posters{
+            background: white;
+            border-radius: 8px;
+}
+
+.container
+
 .card-posters .image-box{
     height: 200px;
 }
 
 .card-posters .image-box .imgp{
     height: 100%;
+    border-radius: 8px 8px 0 0;
 }
+
