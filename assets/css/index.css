@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
 
-body{
+body {
     min-height: 100vh;
     font-family: 'dubai medium';
     margin: 0;
     align-items: center;
     background-color: rgb(33, 33, 33);
-    color:aliceblue;
+    color: aliceblue;
     background-image: linear-gradient(#301E67, black, black, black);
 }
 
-#titulo0{
+#titulo0 {
     font-size: 45px;
     margin-top: 20px;
     padding: 10px;
@@ -21,40 +21,54 @@ body{
     text-align: center;
 }
 
-/*Banner / Carrossel Css */ 
+/*Banner / Carrossel Css */
 .carrossel {
     width: 940px;
     height: 570px;
-   overflow: hidden;
+    overflow: hidden;
     outline: 3px solid cyan;
     margin: 50px auto;
 }
 
-.carrossel ul{
+.carrossel ul {
     display: flex;
     list-style: none;
     width: 3760px;
-    height: 570px ;
+    height: 570px;
 }
 
-.carrossel li{
+.carrossel li {
     position: relative;
     animation: slide 15s infinite ease-in-out;
 }
 
-@keyframes slide{
-    0%{left: 0px}
-    30%{left: -940px}
-    60%{left: -1880px}
-    90%{left: -2820px}
-    120%{left: -3760px}
+@keyframes slide {
+    0% {
+        left: 0px
+    }
+
+    30% {
+        left: -940px
+    }
+
+    60% {
+        left: -1880px
+    }
+
+    90% {
+        left: -2820px
+    }
+
+    120% {
+        left: -3760px
+    }
 }
 
 /*fim banner */
 
 /*cards*/
 
-.cards{
+.cards {
     display: flex;
 }
 
@@ -65,18 +79,18 @@ body{
     overflow: hidden;
     margin: 2%;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 17px 8px rgba(113,105,139,1);
--moz-box-shadow: 0px 0px 17px 8px rgba(113,105,139,1);
-box-shadow: 0px 0px 17px 8px rgba(113,105,139,1);
+    -webkit-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+    -moz-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+    box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
 }
 
-.c1:hover{
+.c1:hover {
     width: 35%;
     background-color: white;
     transition: 0.5s;
 }
 
-.linkcard1{
+.linkcard1 {
     text-decoration: none;
 }
 
@@ -86,14 +100,14 @@ box-shadow: 0px 0px 17px 8px rgba(113,105,139,1);
 
 #tloumini {
     margin: 5px;
-    width: 30%; 
-    height: 100%; 
+    width: 30%;
+    height: 100%;
     border-radius: 5px;
 }
 
 .textcard1 {
     margin: 5%;
-    color:#71698b;
+    color: #71698b;
 }
 
 .c2 {
@@ -102,19 +116,19 @@ box-shadow: 0px 0px 17px 8px rgba(113,105,139,1);
     overflow: hidden;
     margin: 2%;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 17px 8px rgba(113,105,139,1);
--moz-box-shadow: 0px 0px 17px 8px rgba(113,105,139,1);
-box-shadow: 0px 0px 17px 8px rgba(113,105,139,1);
+    -webkit-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+    -moz-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+    box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
 }
 
-.c2:hover{
+.c2:hover {
     width: 35%;
     background-color: white;
     transition: 0.5s;
-    
+
 }
 
-.linkcard2{
+.linkcard2 {
     text-decoration: none;
 }
 
@@ -124,14 +138,14 @@ box-shadow: 0px 0px 17px 8px rgba(113,105,139,1);
 
 #Euphoriamini {
     margin: 5px;
-    width: 30%; 
-    height: 100%; 
+    width: 30%;
+    height: 100%;
     border-radius: 5px;
 }
 
 .textcard2 {
     margin: 5%;
-    color:#71698b;
+    color: #71698b;
 }
 
 .c3 {
@@ -140,19 +154,19 @@ box-shadow: 0px 0px 17px 8px rgba(113,105,139,1);
     overflow: hidden;
     margin: 2%;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 17px 8px rgba(113,105,139,1);
--moz-box-shadow: 0px 0px 17px 8px rgba(113,105,139,1);
-box-shadow: 0px 0px 17px 8px rgba(113,105,139,1);
+    -webkit-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+    -moz-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+    box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
 }
 
-.c3:hover{
+.c3:hover {
     width: 35%;
     background-color: white;
     transition: 0.5s;
-    
+
 }
 
-.linkcard3{
+.linkcard3 {
     text-decoration: none;
 }
 
@@ -162,37 +176,15 @@ box-shadow: 0px 0px 17px 8px rgba(113,105,139,1);
 
 #BBmini {
     margin: 5px;
-    width: 30%; 
-    height: 100%; 
+    width: 30%;
+    height: 100%;
     border-radius: 5px;
 }
 
 .textcard3 {
     margin: 5%;
-    color:#71698b;
+    color: #71698b;
 }
 
 
 /*poster*/
-.posters{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.card-posters{
-            background: white;
-            border-radius: 8px;
-}
-
-.container
-
-.card-posters .image-box{
-    height: 200px;
-}
-
-.card-posters .image-box .imgp{
-    height: 100%;
-    border-radius: 8px 8px 0 0;
-}
-
