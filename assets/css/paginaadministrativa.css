@@ -12,13 +12,14 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+    margin: 20px;
 }
 
 label {
     color: white;
     text-align: center;
     font-size: 30px;
-    margin: 10px;
+    margin: 20px;
 }
 
 #painel {
@@ -33,9 +34,10 @@ input {
     margin: auto;
     height: 25px;
     border-radius: 10px;
+    font-size: 25px;
 }
 
-button {
+#adicionar {
     margin-top: 15px;
     width: 20%;
     text-align: center;
@@ -44,13 +46,15 @@ button {
     border-radius: 10px;
     height: 40px;
     transition: 1s;
+    font-size: 25px;
 }
 
-button:hover {
+#adicionar:hover {
     background-color: #03001C;
     color: white;
     transition: 1s;
 }
+
 
 #footer {
     margin-bottom: -10px;
