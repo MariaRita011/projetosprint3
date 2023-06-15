@@ -1,13 +1,17 @@
 <!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <link href="./style.feedback.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./stylefeedback.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/images/logotitico.png">
     <title>Feedback</title>
 </head>
+<html>
 <body>
     <iframe src="../layouts/header.html" frameborder="0" scrolling="no" width="100%" margin="0px"></iframe>
-    <form action="./../pages/success1.html">
+    <form action="./../pages/feedbacksucess.html">
           <!--formularios-->
           <div class="card">
             <div class="card__inner">
@@ -19,7 +23,7 @@
                             <input type="text" placeholder="Nome" required>
                             <input type="email" placeholder="E-mail" required>
                             <input type="text" placeholder="Deixe seu comentário" required>
-                            <button onclick="signin()">Enviar</button>
+                            <button onclick="signin()" id="botao">Enviar</button>
                         </div>
                         </form>
                     </div>
@@ -29,7 +33,7 @@
             <!--formularios-->
        
     </form>
-    <iframe src="../layouts/footer.html" frameborder="0" scrolling="no" width="100%" margin="0px"></iframe>
+    <iframe src="../layouts/footer.html" frameborder="0" scrolling="no" width="100%" id="footer"></iframe>
 </body>
 
 </html>
