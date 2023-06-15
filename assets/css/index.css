@@ -221,6 +221,12 @@ body {
         height: 150px;
     }
 
+    #footer {
+        margin-top: 20%;
+        bottom: 0;
+        left: 0;
+    }
+
     @keyframes slide {
         0% {
             left: 0px
