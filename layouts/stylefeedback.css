@@ -27,19 +27,6 @@ body {
     padding: 0;
 }
 
-img {
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 32px;
-    height: 32px;
-    filter: invert(100%);
-    content: url(../images/sound_on.svg);
-}
-
-img.is-off {
-    content: url(../images/sound_off.svg);
-}
-
 h2 {
     font-size: 2rem;
     margin-bottom: 1.2rem;
@@ -70,7 +57,7 @@ h2 {
     filter: brightness(110%);
 }
 
-button {
+#enviar {
     font-size: 1rem;
     margin-top: 0.3rem;
     padding: 10px 0;
@@ -82,7 +69,7 @@ button {
     background-image: linear-gradient(to bottom right, var(--secondary), var(--tertiary));
 }
 
-button:hover {
+#enviar:hover {
     filter: brightness(110%);
 }
 

@@ -9,14 +9,51 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-a[´[[[[[[´[[[[wesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="../assets/css/headernova.css">
     <title>Sobre nós</title>
 </head>
 
 <body>
-    <iframe src="../layouts/header.html" frameborder="0" scrolling="no" width="100%"></iframe>
+    <!--Header-->
+    <header>
+
+        <!--Logo-->
+        <div id="logodiv">
+            <a href="../index.html" class="logo">
+                <img id="logo" src="../assets/images/vexxlogobranco.png" alt="logo do site">
+            </a>
+
+            <!--DropDown-->
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Menu
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+
+            <!--Navegation-->
+            <div class="dropdown-content">
+                <a href="./../index.html" target="_parent">Home</a></li>
+                <a href="./../pages/categorias.html" target="_parent">categorias</a>
+                <a href="../layouts/feedback.html" target="_parent">feedback</a>
+                <a href="../pages/contato.html" target="_parent">contato</a>
+                <a href="../pages/sobrenos.html" target="_parent">Equipe</a>
+                <a href="../pages/VexxSub.html" target="_parent">vexxsub</a>
+                <a href="../pages/contatologin.html" target="_parent">Log-in</a>
+                <a href="../pages/paginaadministrativa.html" target="_parent">Painel</a>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!--Sobre Nós-->
     <h1 id="titulo">VexxTelevision</h1>
     <section id="fachada">
-        <img src="../assets/images/projeto agr.jpg" alt="banner random" id="banner">
+        <img id="bannerfachada" src="../assets/images/sobrenos.png" alt="banner random" id="banner">
     </section>
     <section id="card">
         <h1>SOBRE NÓS</h1>
@@ -24,9 +61,13 @@
         <p>A equipe da VexxTelevision criou esse site com o intuito de auxiliar na escolha dos seus filmes. </p>
     </section>
 
+    <!--Cards Membros 1-->
     <section>
         <div class="countainer">
             <div class="content">
+
+
+                <!--Isadora-->
                 <div class="card">
                     <div class="card-content">
                         <div class="image">
@@ -56,6 +97,9 @@
                         </div>
                     </div>
                 </div>
+
+
+                <!--Maria Rita-->
                 <div class="card">
                     <div class="card-content">
                         <div class="image">
@@ -85,6 +129,9 @@
                         </div>
                     </div>
                 </div>
+
+
+                <!--Thayná-->
                 <div class="card">
                     <div class="card-content">
                         <div class="image">
@@ -118,9 +165,13 @@
         </div>
     </section>
 
+
+    <!--Cards Membros 2-->
     <section>
         <div class="countainer">
             <div class="content">
+
+                <!--Nickolas-->
                 <div class="card">
                     <div class="card-content">
                         <div class="image">
@@ -150,6 +201,9 @@
                         </div>
                     </div>
                 </div>
+
+
+                <!--Guilherme-->
                 <div class="card">
                     <div class="card-content">
                         <div class="image">
@@ -180,10 +234,13 @@
                         </div>
                     </div>
                 </div>
+
+
+                <!--João Victor-->
                 <div class="card">
                     <div class="card-content">
                         <div class="image">
-                            <img src="../assets/images/joaovictor.jpg" alt="Isabelle">
+                            <img src="../assets/images/joaovictor.jpg" alt="João Victor">
                         </div>
                         <div class="media-icons">
                             <a href="https://www.instagram.com/joaoo.sntx/" target="_blank" rel="noopener noreferrer"><i
@@ -212,6 +269,8 @@
             </div>
         </div>
     </section>
+
+
     <iframe src="../layouts/footer.html" frameborder="0" scrolling="no" width="100%"></iframe>
 </body>
 

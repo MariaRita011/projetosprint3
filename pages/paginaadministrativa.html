@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,75 @@
     <link rel="icon" href="../assets/images/logotitico.png">
     <script src="../assets/JavaScript/paginaadministrativa.js"></script>
     <link rel="stylesheet" href="../assets/css/paginaadministrativa.css">
+    <link rel="stylesheet" href="../assets/css/headernova.css">
     <title>Administrativo</title>
 </head>
+
 <body>
-    <iframe src="../layouts/header.html" frameborder="0" scrolling="no" width="100%" ></iframe>
+    <!--Header-->
+    <header>
+
+        <!--HTML da Header-->
+
+        <!--Logo-->
+        <div id="logodiv">
+            <a href="../index.html" class="logo">
+                <img id="logo" src="../assets/images/vexxlogobranco.png" alt="logo do site">
+            </a>
+
+            <!--DropDown-->
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Menu
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+
+            <!--Navegation-->
+            <div class="dropdown-content">
+                <a href="./../index.html" target="_parent">Home</a></li>
+                <a href="./../pages/categorias.html" target="_parent">categorias</a>
+                <a href="../layouts/feedback.html" target="_parent">feedback</a>
+                <a href="../pages/contato.html" target="_parent">contato</a>
+                <a href="../pages/sobrenos.html" target="_parent">Equipe</a>
+                <a href="../pages/VexxSub.html" target="_parent">vexxsub</a>
+                <a href="../pages/contatologin.html" target="_parent">Log-in</a>
+                <a href="../pages/paginaadministrativa.html" target="_parent">Painel</a>
+            </div>
+        </div>
+    </header>
+
+    <!--Labels e Inputs-->
     <h1 id="titulotext">Painel Administrativo</h1>
     <div id="painel">
-    <label for="">Título</label>
-    <input id="titulo" type="text">
-    <label for="">Resumo</label>
-    <input id="resumo" type="text">
-    <label for="">Categoria</label>
-    <input id="categoria" type="text">
-    <label for="">Autor</label>
-    <input id="autor" type="text">
-    <label for="">Data de publicação</label>
-    <input id="data" type="date">
-    <div id="div_button">
-        <button type="button" onclick="adicionar()" >Adicionar</button>
+
+
+        <label for="">Título</label>
+        <input id="titulo" type="text">
+
+        <label for="">Categoria</label>
+        <input id="categoria" type="text">
+
+
+        <label for="">Resumo</label>
+        <input id="resumo" type="text">
+
+
+        <label for="">Autor</label>
+        <input id="autor" type="text">
+
+
+        <label for="">Data de publicação</label>
+        <input id="data" type="date">
+        <div id="div_button">
+            <button id="adicionar" type="button" onclick="adicionar()">Adicionar</button>
+        </div>
+        <div id="ntc" ></div>
     </div>
-</div>
-<iframe id="footer" src="../layouts/footer.html" width="100%" frameborder="0"></iframe>
+    <iframe id="footer" src="../layouts/footer.html" width="100%" frameborder="0"></iframe>
 </body>
+
 </html>
