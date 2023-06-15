@@ -187,4 +187,65 @@ body {
 }
 
 
-/*poster*/
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+        font-size: 20px;
+    }
+
+    #titulo0 {
+        font-size: 30px;
+        margin-top: 20px;
+        padding: 10px;
+        padding-left: 60px;
+        text-align: center;
+    }
+
+    .mobile {
+        height: 90px;
+        width: 200px;
+    }
+
+    .carrossel {
+        width: 200px;
+        height: 90px;
+        overflow: hidden;
+        outline: 3px solid cyan;
+        margin: 50px auto;
+    }
+    
+    .carrossel ul {
+        display: flex;
+        list-style: none;
+        width: 800px;
+        height: 90px;
+    }
+
+    @keyframes slide {
+        0% {
+            left: 0px
+        }
+    
+        30% {
+            left: -200px
+        }
+    
+        60% {
+            left: -400px
+        }
+    
+        90% {
+            left: -600px
+        }
+    
+        120% {
+            left: -800px
+        }
+    }
+
+    .cards {
+        display: inline;
+    }
+
+    
+}
