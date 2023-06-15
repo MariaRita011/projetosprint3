@@ -245,21 +245,24 @@ body {
 
     .cards {
         display: inline;
+        align-items: center;
+    
     }
 
     .c1 {
-        width: 40%;
-        height: 10%;
+        width: 75%;
+        height: 5%;
         overflow: hidden;
-        margin: 2%;
+        margin: 13%;
+        margin-bottom: 28px;
         border-radius: 5px;
-        -webkit-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
-        -moz-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+        -webkit-box-shadow: 0px 0px 17px 8px rgba(113, 55, 139, 1);
+        -moz-box-shadow: 0px 0px 17px 8px rgba(113, 55, 139, 1);
         box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
     }
     
     .c1:hover {
-        width: 45%;
+        width: 35%;
         background-color: white;
         transition: 0.5s;
     }
@@ -283,4 +286,85 @@ body {
         margin: 5%;
         color: #71698b;
     }
+
+    .c2 {
+        width: 75%;
+        height: 5%;
+        overflow: hidden;
+        margin: 13%;
+        margin-bottom: 28px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+        -moz-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+        box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+    }
+    
+    .c2:hover {
+        width: 35%;
+        background-color: white;
+        transition: 0.5s;
+    
+    }
+    
+    .linkcard2 {
+        text-decoration: none;
+    }
+    
+    .card2 {
+        display: flex;
+    }
+    
+    #Euphoriamini {
+        margin: 5px;
+        width: 30%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    
+    .textcard2 {
+        margin: 5%;
+        color: #71698b;
+    }
+    
+    .c3 {
+        width: 75%;
+        height: 5%;
+        overflow: hidden;
+        margin: 13%;
+        margin-bottom: 28px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+        -moz-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+        box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+    }
+    
+    .c3:hover {
+        width: 35%;
+        background-color: white;
+        transition: 0.5s;
+    
+    }
+    
+    .linkcard3 {
+        text-decoration: none;
+    }
+    
+    .card3 {
+        display: flex;
+    }
+    
+    #BBmini {
+        margin: 5px;
+        width: 30%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    
+    .textcard3 {
+        margin: 5%;
+        color: #71698b;
+    }
+
 }
+
+   
