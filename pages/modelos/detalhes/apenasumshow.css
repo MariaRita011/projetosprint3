@@ -10,10 +10,6 @@ ul{
     text-decoration: none;
     list-style: none;
 }
-li:hover{
-     background-color: rgb(54, 54, 54);
-        border-radius: 30px;
-}
 #filmeinfo{
     color:aliceblue;
     justify-content: center;
@@ -41,7 +37,6 @@ li:hover{
     color:aliceblue;
     justify-content: center;
     border: 2px solid;
-    background-color: rgb(33, 33, 33);
     border-radius: 10px;
     margin: 40px;
     padding-right: 30px;
@@ -65,7 +60,6 @@ li {
     margin-left: 5px;
     text-align: center;
     padding: 10px;
-    background-color: rgb(54, 54, 54);
     border-radius: 30px;
 }
 #where{
@@ -92,7 +86,6 @@ li {
 hr{
     opacity: 0.2;
     outline: none;
-    width: 1000px;
 }
 #titulo{
     font-size: 400%;
@@ -100,3 +93,75 @@ hr{
 h1{
     padding-left: 30px;
 }
+
+
+        /* Responsivo */
+        @media (max-width: 600px) {
+            body {
+                overflow-x: hidden;
+                font-size: 20px;
+            }
+
+           
+
+            #yt{
+                margin-left: 25%;
+                width: 35vh;
+            }
+
+            #tituloinicio h1 {
+                text-align: center;
+                font-size: 24px;
+                margin-bottom: -5%;
+            }
+
+            ul {
+                display: inline;
+                margin-left: 0%;
+            }
+
+            li {
+                text-align: left;
+                padding: 0;
+                margin: 10px;
+                text-align: left;
+                font-size: 23px;
+            }
+
+            #generos ul {
+                margin-left: 0;
+                padding: 0;
+            }
+
+            #filmeinfo {
+                flex-direction: column;
+                padding-right: 10px;
+                width: auto;
+              
+            }
+
+            #capa {
+                width: 100%;
+                height: auto;
+                margin-left: 21%;
+            }
+
+            #info{
+                display: inline;
+            }
+
+            #capa{
+                align-items: center;
+                width: 60%;
+            }
+
+            .caixa {
+                flex-direction: column;
+                margin: 20px;
+                padding-right: 10px;
+                width: auto;
+            }
+             section{
+                margin-left: 5%;
+             }
+        }

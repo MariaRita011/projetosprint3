@@ -180,9 +180,66 @@ z-index: 9;
     display: flex;
 }
 
+h1 {
+    margin: 10px;
+}
+
 @media (max-width: 600px) {
+
+  .main {
+        flex-direction: column;
+    } 
+
+    .galery,
+    .asaide {
+        width: 100%;
+        
+       
+    }
+
+    .galery .fotos a {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .asaide {
+        order: -1;
+        display: flex;
+       
+    }
+
+    .card2 {
+        width: 90%;
+        display: flex;
+    }
+
+    .imagemdestaque {
+        width: 200px;
+        height: 110px;
+
+    }
+
+    .materia {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 25px;
+        position:relative;
+    }
+    
+    .slider {
+        display: flex;
+    }
+    .destaque1 {
+        width: 100%;
+        height: 100px;
+        padding: 0;
+    }
+
 section, aside {
     width: 100%;
     padding: 0;
 }
 }
+

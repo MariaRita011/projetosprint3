@@ -1,0 +1,115 @@
+body {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(48, 30, 103, 1) 100%);
+    font-family: 'dubai medium';
+    margin: 0;
+    padding: 0;
+}
+
+#titulotext {
+    background: #FFFFFF;
+    background: linear-gradient(to right, #FFFFFF 0%, #5B8FB9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 15px;
+}
+
+label {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+#painel {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+input {
+    width: 40%;
+    margin: auto;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#adicionar {
+    margin-top: 15px;
+    text-align: center;
+    background-color: white;
+    color: #03001C;
+    border-radius: 10px;
+    height: 40px;
+    transition: 1s;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#adicionar:hover {
+    background-color: #03001C;
+    color: white;
+    transition: 1s;
+}
+
+
+#footer {
+    margin-top: 20%;
+    bottom: 0;
+    margin-bottom: -7px;
+}
+
+#titulotodo {
+    color: white;
+    text-align: left;
+    margin: 5px 10px;
+}
+
+.conteudo {
+    color: white;
+    text-align: left;
+    margin:3px 10px;
+}
+
+.sec {
+    background-color: rgba(255, 255, 255, 0.363);
+    margin: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonstodo {
+    background-color: #03001C;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.buttonstodo:hover {
+background-color: #5B8FB9;
+transition: 0.5s;
+}
+
+@media (max-width: 780px) {
+
+    input {
+        width: 60%;
+}
+.sec {
+    flex-direction: column;
+}
+}
+
+#verificacao {
+    color: red;
+    font-size: 20px;
+    margin: 10px;
+}
