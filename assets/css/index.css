@@ -291,54 +291,48 @@ body {
         width: 300px;
     }
 
- /*Banner / Carrossel Css */
-.mobile {
-    height: 150px;
-    width: 300px;
-}
-
-
-.carrossel {
-    width: 300px;
-    height: 150px;
-    overflow: hidden;
-    outline: 3px solid cyan;
-    margin: 10px auto;
-}
-
-.carrossel ul {
-    display: flex;
+    .carrossel {
+        width: 300px;
+        height: 150px;
+        overflow: hidden;
+        outline: 3px solid cyan;
+        margin: 10px auto;
+    }
+    
+    .carrossel ul {
+        display: flex;
         list-style: none;
         width: 1200px;
         height: 150px;
-}
-
-.carrossel li {
-    position: relative;
-    animation: slide 15s infinite ease-in-out;
-}
-
-@keyframes slide {
-    0% {
-        left: 0px
     }
 
-    30% {
-        left: -300px
+    #footer {
+        margin-top: 20%;
+        bottom: 0;
+        left: 0;
     }
 
-    60% {
-        left: -600px
+    @keyframes slide {
+        0% {
+            left: 0px
+        }
+    
+        30% {
+            left: -300px
+        }
+    
+        60% {
+            left: -600px
+        }
+    
+        90% {
+            left: -900px
+        }
+    
+        120% {
+            left: -1200px
+        }
     }
-
-    90% {
-        left: -900px
-    }
-
-    120% {
-        left: -1200px
-    }
-}
 
 /*fim banner */
 
