@@ -36,14 +36,14 @@ const dateinput = new Date(dtcompar);
 
     //Caso algum cmpo não tenha sido preenchido
     if (t == '' || c == '' || r == '' || a == '' || dusa == ''||t == '' &&c == '' && r == '' && a == '' && dusa == '') {
-        alert("Preencha todos os campos para adicionar uma notícia!");
+        document.getElementById("verificacao").innerHTML = "Preencha todos os campos para adicionar!";
     } 
     else if (dateinput.setHours(20) < datadehoje || dateinput.setHours(20) == datadehoje ) {
-        alert("Coloque uma data maior que o dia atual");
+        document.getElementById("verificacao").innerHTML = "Digite uma data maior que o dia de hoje!";
     }
 else {
     
-    
+    document.getElementById("verificacao").innerHTML = "";
     //Adiciondo infos no array
     titulos.push(t);
     categorias.push(c);
@@ -59,7 +59,7 @@ else {
     <p class="conteudo" >${autores[i]}</p>
     <p class="conteudo" >${datas[i]}</p></div>
     <div id="btns" ><button onclick="delet('${secunica}')" class="buttonstodo"> Deletar 🗑️ </button>
-    <button onclick="edit()" class="buttonstodo"> Editar 📝 </button></div>
+    </div>
     </section>`;
     
     //Limpando campos
