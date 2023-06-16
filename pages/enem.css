@@ -80,3 +80,11 @@ hr{
     height: 12%;
     padding-top: 20px;
 }
+
+@media (max-width: 600px) {
+    .main {
+        flex-direction: column;
+    }
+
+    
+}

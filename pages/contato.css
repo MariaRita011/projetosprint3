@@ -1,17 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 :root {
-	--primary: #03001C;
-	--secondary: #301E67;
+    --primary: #03001C;
+    --secondary: #301E67;
     --tertiary: #5B8FB9;
-    
-	--dark: #212121;
-	--light: #f3f3f3;
+
+    --dark: #212121;
+    --light: #f3f3f3;
 
     --white: #fff;
 
-    
+
 
     --background-image: url("../images/background.jpg")
-	
 }
 
 @font-face {
@@ -26,31 +30,20 @@
 }
 
 body {
-	background-image: var(--background-image);
-	background-repeat: no-repeat;
-	background-size: cover;
-    background-image: linear-gradient(#301E67, #301E67,black,black);
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(#301E67, #301E67, black, black);
 }
 
-img {
-	margin-top: 10px;
-	margin-left: 10px;
-	width: 32px;
-	height: 32px;
-	filter: invert(100%);
-	content: url(../images/sound_on.svg);
-}
-
-img.is-off {
-				content: url(../images/sound_off.svg);
-}
 
 h2 {
     font-size: 2rem;
     margin-bottom: 1.2rem;
 }
 
-.signin, .signup {
+.signin,
+.signup {
     margin-top: 20px;
     width: 100%;
     height: 100%;
@@ -60,7 +53,7 @@ h2 {
     color: var(--white);
 }
 
-.form input{
+.form input {
     width: 80%;
     outline: none !important;
     border: none;
@@ -70,11 +63,11 @@ h2 {
     justify-content: center;
 }
 
-.form input:focus{
+.form input:focus {
     filter: brightness(110%);
 }
 
-button{
+#entrar {
     font-size: 1rem;
     margin-top: 0.3rem;
     padding: 10px 0;
@@ -86,71 +79,88 @@ button{
     background-image: linear-gradient(to bottom right, var(--secondary), var(--tertiary));
 }
 
-button:hover{
+#entrar:hover {
     filter: brightness(110%);
 }
 
-.member{
+.member {
     font-size: 0.8rem;
     margin-top: 1.4rem;
     color: var(--white);
 }
 
-.member a{
+.member a {
     text-decoration: none;
 }
 
-.member a:hover{
+.member a:hover {
     color: var(--dark);
     cursor: pointer;
 }
 
-.signup .member a:hover{
+.signup .member a:hover {
     filter: invert();
 }
 
 .card {
-	margin: 100px auto 0;
-	width: 400px;
-	height: 400px;
-	perspective: 1000px;
+    margin: 100px auto 0;
+    width: 400px;
+    height: 400px;
+    perspective: 1000px;
 }
 
 .card__inner {
-	width: 100%;
-	height: 100%;
-	transition: transform 1s;
-	transform-style: preserve-3d;
-	position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    position: relative;
 }
 
-.card__inner.is-flipped{
-	transform: rotateY(180deg);
+.card__inner.is-flipped {
+    transform: rotateY(180deg);
 }
 
-.card__face{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	overflow: hidden;
-	border-radius: 16px;
-	box-shadow: 0px 3px 18px 3px rgba(0,0,0,0.2);	
+.card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
 }
 
-.card__face--front{
-	background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
-	color: var(--light);
-	display: flex;
-	justify-content: center;
+.card__face--front {
+    background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    color: var(--light);
+    display: flex;
+    justify-content: center;
 }
 
 .card__face--back {
-	color: var(--light);
-	background-color: var(--dark);
-	transform: rotateY(180deg);
+    
+    
+    color: var(--light);
+    background-color: var(--dark);
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+}
+#footer {
+   
+    margin-top: 20%; 
+    bottom: 0;
+    left: 0;
+}
 
-	display: flex;
-	justify-content: center;
+@media (max-width: 760px) {
+    .card{
+        width: 80%;
+    }
+    footer{
+        position: fixed;
+        margin-bottom: -5px;
+    }
 }

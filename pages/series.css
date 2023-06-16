@@ -1,3 +1,374 @@
+
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'dubai medium';
+        margin: 0;
+        align-items: center;
+        background-color: rgb(33, 33, 33);
+        color: aliceblue;
+        background-image: linear-gradient(#301E67, black, black, black);
+    }
+
+    hr {
+        opacity: 0.2;
+        outline: none;
+        margin-bottom: 50px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #titulo {
+        font-size: 60px;
+        padding: 10px;
+        padding-left: 60px;
+    }
+
+    /*body*/
+    /*card destaques*/
+    .card2 {
+        width: 80%;
+        height: 50%;
+        background: black;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        transition: all 0.3s ease-out;
+        text-decoration: none;
+        margin-bottom: 10px;
+        padding: 20px;
+        color: #71698b;
+    }
+
+    .card2:hover {
+        transform: translateY(-5px) scale(1.005) translateZ(0);
+        transition: ease-in 0.3s;
+        background-color: #201838;
+    }
+
+    .card2:hover p h2 {
+        transition: ease-in 0.3s;
+        color: aliceblue;
+    }
+
+    .card2:active {
+        transform: scale(1) translateZ(0);
+        box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11);
+    }
+
+    .destaque1:hover {
+        transition: ease-in 0.3s;
+        color: aliceblue;
+    }
+
+    .asaide {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .destaque1 {
+        display: flex;
+    }
+
+    .fotosdestaque {
+        width: 40%;
+        border-radius: 10px;
+    }
+
+    /*carrossel*/
+    .galery {
+        overflow: hidden;
+    }
+
+    /*carrossel fotos*/
+    .galery .fotos {
+        width: 500%;
+        animation-name: animacao;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
+
+    /*carrossel fotos*/
+    .galery .fotos img {
+        width: 19.9%;
+        border-radius: 20px;
+        padding-right: 30px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    /*aside*/
+    #aside {
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    /*veja*/
+    .veja {
+        display: flex;
+    }
+
+    /*main*/
+    .main {
+        display: flex;
+        align-items: center;
+        padding: 30px;
+    }
+
+    /*veja img*/
+    .vejaimg {
+        width: 200px;
+        height: 100px;
+    }
+
+    .countainer-slide {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        gap: 1rem;
+    }
+
+    .slider {
+        opacity: 0;
+        transition: opacity .2s;
+        position: absolute;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .on {
+        opacity: 1;
+    }
+
+    .countainer-image {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1000px;
+    }
+
+    /*slider destaque*/
+    .cardm {
+        position: relative;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .titulo-cardm {
+        padding: 0 10vw;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 40px;
+        text-transform: capitalize;
+    }
+
+    .cardm-container {
+        padding: 0 10vw;
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+
+    .cardm-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .cardm-card {
+        flex: 0 0 auto;
+        width: 250px;
+        height: 450px;
+        margin-right: 40px;
+        text-decoration: none;
+        color: #ffff;
+    }
+
+    a {
+        text-decoration: none;
+        color: #ffff;
+    }
+
+    .cardm-image {
+        position: relative;
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+        text-decoration: none;
+        color: #ffff;
+    }
+
+    .poster-thumb {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card-info {
+        width: 100%;
+        height: 100%;
+        padding-top: 10px;
+    }
+
+    .cardm-nome {
+        text-decoration: none;
+        color: #ffff;
+    }
+
+    .nota {
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .pre-btn,
+    .nxt-btn {
+        border: none;
+        width: 10vw;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #301E67 230%);
+        cursor: pointer;
+        z-index: 9;
+    }
+
+    .pre-btn img,
+    .nxt-btn img {
+        width: 70px;
+        opacity: 0.4;
+    }
+
+    .pre-btn {
+        left: 0;
+        transform: rotate(180deg);
+    }
+
+    .nxt-btn {
+        right: 0;
+    }
+
+    .pre-btn:hover img,
+    .nxt-btn:hover img {
+        opacity: 1;
+    }
+
+    .imagemdestaque {
+        width: 30%;
+        height: 30%;
+        padding-right: 20px;
+    }
+
+    h2 {
+        padding-bottom: 2px;
+    }
+
+    .materia {
+        font-size: 13px;
+    }
+
+    /*index parte 2 oscar e emmy*/
+    .parte2 {
+        display: flex;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+
+    .imagemdestaque2 {
+        width: 50%;
+        height: 50%;
+        padding-right: 20px;
+    }
+
+    .imagemdestaque3 {
+        width: 70%;
+        height: 70%;
+        padding-right: 20px;
+    }
+
+    .imagemdestaque4 {
+        width: 60%;
+        height: 60%;
+        padding-right: 20px;
+    }
+
+    .card3 {
+        width: 35%;
+        height: 50%;
+        background: black;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        transition: all 0.3s ease-out;
+        text-decoration: none;
+        margin-bottom: 10px;
+        padding: 20px;
+        color: #71698b;
+    }
+
+    .card3:hover {
+        transform: translateY(-5px) scale(1.005) translateZ(0);
+        transition: ease-in 0.3s;
+        background-color: #201838;
+    }
+
+    .card3:hover p h2 {
+        transition: ease-in 0.3s;
+        color: aliceblue;
+    }
+
+    .card3:active {
+        transform: scale(1) translateZ(0);
+        box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11);
+    }
+
+    @media (max-width: 600px) {
+        .main {
+            flex-direction: column;
+        }
+
+        .galery,
+        .asaide {
+            width: 100%;
+            padding: 20px;
+            
+           
+        }
+
+        .galery .fotos a {
+            display: flex;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .asaide {
+            order: -1;
+            display: flex;
+           
+        }
+
+        .card2 {
+            width: 100%;
+            display: flex;
+        }
+    }
+
 *{
     padding: 0%;
     margin: 0%;
@@ -285,3 +656,14 @@ h2{
     transform: scale(1) translateZ(0);
     box-shadow: 0 15px 24px rgba(0,0,0,0.11);
 }
+
+@media (max-width: 600px) {
+    section, aside {
+        width: 100%;
+        padding: 0;
+    }
+    .fotos {
+        width: 100%;
+    }
+}
+

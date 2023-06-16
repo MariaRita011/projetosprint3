@@ -4,15 +4,58 @@
 
 <head>
     <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=devie-width, initial-scale=1.0">
+
     <title>Vexx Television</title>
     <link rel="icon" href="../../assets/images/logotitico.png">
     <link rel="stylesheet" href="./filmes.css">
     <link rel="stylesheet" href="../assets/css/animacao.css">
     <script src="../assets/JavaScript/filmes.js" defer></script>
+    <link rel="stylesheet" href="../assets/css/headernova.css">
 </head>
 
 <body>
-    <iframe src="../layouts/header.html" frameborder="0" scrolling="no" width="100%"></iframe>
+
+    <!--Header-->
+   <header>
+
+    <!--HTML da Header-->
+
+    <!--Logo-->
+    <div id="logodiv">
+        <a href="../index.html" class="logo">
+            <img id="logo" src="../assets/images/vexxlogobranco.png" alt="logo do site">
+        </a>
+
+        <!--DropDown-->
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Menu
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+        </button>
+
+        <!--Navegation-->
+        <div class="dropdown-content">
+            <a href="./../index.html" target="_parent">Home</a></li>
+            <a href="./../pages/categorias.html" target="_parent">categorias</a>
+            <a href="../layouts/feedback.html" target="_parent">feedback</a>
+            <a href="../pages/contato.html" target="_parent">contato</a>
+            <a href="../pages/sobrenos.html" target="_parent">Equipe</a>
+            <a href="../pages/VexxSub.html" target="_parent">vexxsub</a>
+            <a href="../pages/contatologin.html" target="_parent">Log-in</a>
+            <a href="../pages/paginaadministrativa.html" target="_parent">Painel</a>
+        </div>
+    </div>
+</header>
+
+
     <!--slider carrosel destaques-->
     <main class="main">
         <section class="galery">
@@ -20,8 +63,9 @@
                 <a href="layouts/modelos/detalhes1.html" target="_blank" rel="noopener noreferrer">
                     <img src="./../assets/images/asabovesobelowjpg.jpg" alt="placeholder2">
                 </a>
-                <a href="./../layouts/modelos/detalhes/Velozes e Furiosos 2.html" target="_blank" rel="noopener noreferrer">
-                    <img src="./imagensmodelo/velozesefuriosos7.jpg" alt=".">
+                <a href="./../layouts/modelos/detalhes/Velozes e Furiosos 2.html" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="../pages/modelos/imagensmodelo/velozesefuriosos.jpg" alt=".">
                 </a>
                 <a href="layouts/modelos/filmes.html" target="_blank" rel="noopener noreferrer">
                     <img src="./modelos/imagensmodelo/CidadedeDeus.jpg" alt="placeholder2">
@@ -29,8 +73,11 @@
                 <a href="layouts/modelos/contato.html" target="_blank" rel="noopener noreferrer">
                     <img src="./../assets/images/creed-iii_1.jpg" alt="placeholder2">
                 </a>
+
             </div>
         </section>
+
+
         <!--destaques aside-->
         <aside class="asaide">
             <h1>EM ALTA</h1>
@@ -70,171 +117,126 @@
         </aside>
     </main>
     <hr>
+
+
     <!--slider de destaques-->
     <section class="cardm">
         <h2 class="titulo-cardm"></h2>
         <button class="pre-btn"><img src="./modelos/imagensmodelo/arrow.png" id="img-btn"></button>
         <button class="nxt-btn"><img src="./modelos/imagensmodelo/arrow.png" id="img-btn"></button>
         <div class="cardm-container">
+
+            <!--Jogos Mortais-->
             <div class="cardm-card">
                 <div class="cardm-image">
-                    <a href="./../pages/modelos/detalhes/jogos mortais.html"><img class="poster-thumb" src="./modelos/imagensmodelo/JogosMortais.jpg"></a>
+                    <a href="./../pages/modelos/detalhes/jogosmortais.html"><img class="poster-thumb"
+                            src="./modelos/imagensmodelo/JogosMortais.jpg"></a>
                 </div>
                 <div class="cardm-info">
                     <h2 class="cardm-nome">Jogos Mortais</h2>
                     <span class="nota">8/10</span>
                 </div>
             </div>
+
+            <!--Transformers-->
             <div class="cardm-card">
                 <div class="cardm-image">
-                    <a href="../layouts/modelos/detalhes/Transformers a vingança dos derrotados.html"> <img class="poster-thumb" src="./modelos/imagensmodelo/transformers.jpg"></a>
+                    <a href="../layouts/modelos/detalhes/transformersavingançadosderrotados.html"> <img
+                            class="poster-thumb" src="./modelos/imagensmodelo/transformers.jpg"></a>
                 </div>
                 <div class="cardm-info">
                     <h2 class="cardm-nome">Transformers: A Vingança dos Derrotados</h2>
                     <span class="nota">7/10</span>
                 </div>
             </div>
+
+            <!--Velozes e Furiosos-->
             <div class="cardm-card">
                 <div class="cardm-image">
-                    <a href="../layouts/modelos/detalhes/Velozes e Furiosos 2.html"> <img class="poster-thumb" src="./modelos/imagensmodelo/velozesefuriosos7.jpg"></a>
+                    <a href="../layouts/modelos/detalhes/Velozes e Furiosos 2.html"> <img class="poster-thumb"
+                            src="./modelos/imagensmodelo/velozesefuriosos7.jpg"></a>
                 </div>
                 <div class="cardm-info">
                     <h2 class="cardm-nome">Velozes & Furiosos 7</h2>
                     <span class="nota">9/10</span>
                 </div>
             </div>
+
+            <!--Titanic-->
             <div class="cardm-card">
                 <div class="cardm-image">
-                    <a href="../pages/modelos/detalhes/Titanic.html"><img class="poster-thumb" src="./modelos/imagensmodelo/Titanic.jpg"></a>
+                    <a href="../pages/modelos/detalhes/Titanic.html">
+                        <img class="poster-thumb" src="./modelos/imagensmodelo/Titanic.jpg"></a>
                 </div>
                 <div class="cardm-info">
                     <h2 class="cardm-nome">Titanic</h2>
                     <span class="nota">9/10</span>
                 </div>
             </div>
+
+            <!--Pixels-->
             <div class="cardm-card">
                 <div class="cardm-image">
-                    <a href="."></a><img class="poster-thumb" src="./modelos/imagensmodelo/pixels.jpg">
+                    <a href="modelos/detalhes/pixels.html"><img class="poster-thumb"
+                            src="./modelos/imagensmodelo/pixels.jpg"></a>
                 </div>
                 <div class="cardm-info">
                     <h2 class="cardm-nome">Pixels</h2>
                     <span class="nota">8/10</span>
                 </div>
             </div>
+
+            <!--Whiplash-->
             <div class="cardm-card">
                 <div class="cardm-image">
-                    <img class="poster-thumb" src="./modelos/imagensmodelo/Whiplash.jpg">
+                    <a href="modelos/detalhes/wisplash.html"><img class="poster-thumb"
+                            src="./modelos/imagensmodelo/Whiplash.jpg"></a>
                 </div>
                 <div class="cardm-info">
                     <h2 class="cardm-nome">Whiplash</h2>
                     <span class="nota">8/10</span>
                 </div>
             </div>
+
+            <!--John Wick-->
             <div class="cardm-card">
                 <div class="cardm-image">
-                    <img class="poster-thumb"
-                        src="./modelos/imagensmodelo/big-poster-filme-john-wick-3-parabellum-lo03-tam-90x60-cm-john-wick-3.jpg">
+                    <a href="modelos/detalhes/JohnWick.html"><img class="poster-thumb"
+                        src="./modelos/imagensmodelo/big-poster-filme-john-wick-3-parabellum-lo03-tam-90x60-cm-john-wick-3.jpg"></a>
                 </div>
                 <div class="cardm-info">
                     <h2 class="cardm-nome">John Wick 3: Parabellum</h2>
                     <span class="nota">9,5/10</span>
                 </div>
             </div>
+
+            <!--IT A Coisa-->
             <div class="cardm-card">
                 <div class="cardm-image">
-                    <img class="poster-thumb" src="./modelos/imagensmodelo/It_2017.jpg">
+                    <a href="./modelos/detalhes/itacoisa.html"><img class="poster-thumb" src="./modelos/imagensmodelo/It_2017.jpg"></a>
                 </div>
                 <div class="cardm-info">
                     <h2 class="cardm-nome">IT:A coisa</h2>
                     <span class="nota">7/10</span>
                 </div>
             </div>
+
+            <!--Anabelle-->
             <div class="cardm-card">
                 <div class="cardm-image">
-                    <img class="poster-thumb" src="./modelos/imagensmodelo/annabelle.jpg">
+                    <a href="./modelos/detalhes/anabelle.html"><img class="poster-thumb" src="./modelos/imagensmodelo/annabelle.jpg"></a>
                 </div>
                 <div class="cardm-info">
                     <h2 class="cardm-nome">Annabelle Comes Home </h2>
                     <span class="nota">9/10</span>
                 </div>
             </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./modelos/imagensmodelo/Halloween_cover.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">Halloween 1978</h2>
-                    <span class="nota">7/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./modelos/imagensmodelo/zombieland.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">Zombieland: Double Tap </h2>
-                    <span class="nota">8/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./modelos/imagensmodelo/Asabovesobelow.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">As above So below </h2>
-                    <span class="nota">8/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./modelos/imagensmodelo/CidadedeDeus.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">Cidade de Deus</h2>
-                    <span class="nota">10/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./modelos/imagensmodelo/meu.jpeg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">Meu Malvado Favorito 3</h2>
-                    <span class="nota">9/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./modelos/imagensmodelo/opoço.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">O Poço</h2>
-                    <span class="nota">8/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./modelos/imagensmodelo/creed.jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">creed 3</h2>
-                    <span class="nota">9/10</span>
-                </div>
-            </div>
-            <div class="cardm-card">
-                <div class="cardm-image">
-                    <img class="poster-thumb" src="./modelos/imagensmodelo/jujutso0..jpg">
-                </div>
-                <div class="cardm-info">
-                    <h2 class="cardm-nome">jujutsu kaisen 0</h2>
-                    <span class="nota">10/10</span>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!--footer-->
-    <iframe href="./layouts/footer.html" frameborder="0" scrolling="no"></iframe>
+        </div>
+        </section>
+
+        <!--footer-->
+       <iframe src="../layouts/footer.html" width="100%" scrolling="no"  frameborder="0"></iframe>
 </body>
 
 </html>

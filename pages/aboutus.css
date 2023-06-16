@@ -1,33 +1,129 @@
-body{
+body {
     font-family: 'dubai medium';
-    background-image: linear-gradient(#7c3f95,black, black);
-    color:aliceblue;
+    background: linear-gradient(#7c3f95, black, black);
+    color: aliceblue;
     margin: 0;
     padding: 0;
 }
-.comentario{
-    display: flex;
-    margin: 10px;
+
+section {
+    margin: 50px;
 }
-#pfp{
+
+.comentario {
+    display: flex;
+    margin: 30px;
+}
+
+#pfp {
     width: 15%;
     height: 15%;
     border-radius: 100px;
     padding-right: 10px;
 }
-.nomecomentario{
-    margin-top: 0px;
+
+.nomecomentario {
+    margin-top: 0;
     margin-left: 10px;
 }
-.caixa{
-    color:aliceblue;
+
+.caixa {
+    color: aliceblue;
     justify-content: center;
     border: 2px solid;
     background-color: rgb(33, 33, 33);
     border-radius: 10px;
-    margin: 40px;
+    margin: 80px;
     padding-right: 30px;
     display: flex;
     width: auto;
-    margin-bottom: 130px;
 }
+
+
+body{
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(48,30,103,1) 100%);
+    text-align: center;
+    font-family: Franklin Gothic Book e Franklin Gothic demi;
+    margin:0;
+
+}
+#verificado1{ 
+    width: 400px;
+    margin-top: 50px;
+}
+.button{
+    border-radius: 15px;
+    background-color: #ffffff;
+    color:#301E67;
+    padding: 10px;
+    margin: 20px;
+    transition: 0.5s;
+    margin: auto;
+    font-size: 30px;
+}
+button:hover{
+    transition: 0.5s;
+    background-color: #301E67;
+    color: white;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    margin: auto; 
+    margin-bottom: 50px;
+}
+
+#footer {
+    bottom:0;
+    left:0;
+}
+
+h1 {
+    margin: 30px;
+    color: white;
+}
+
+#footer {
+    margin-top: 20%;
+    bottom: 0;
+    left: 0;
+}
+
+@media (max-width: 600px) {
+    .button {
+        width: 200px;
+        margin: auto;
+        font-size: 23px;
+    }
+    #verificado1 {
+        width: 90%;
+    }
+ h1 {
+    font-size: 50px;
+ }
+
+}
+
+@media (max-width: 600px) {
+    .comentario {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #pfp {
+        width: 50%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .nomecomentario {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .caixa {
+        margin: 20px;
+    }
+}
+
