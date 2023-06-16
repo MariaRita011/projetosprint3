@@ -35,6 +35,139 @@ body {
     list-style: none;
     width: 3760px;
     height: 570px;
+  
+}
+
+.carrossel li {
+    position: relative;
+    animation: slide 15s infinite ease-in-out;
+}
+
+@keyframes slide {
+    0% {
+        left: 0px
+    }
+
+    30% {
+        left: -940px
+    }
+
+    60% {
+        left: -1880px
+    }
+
+    90% {
+        left: -2820px
+    }
+
+    120% {
+        left: -3760px
+    }
+}
+
+/*fim banner */
+
+/*cards*/
+
+.cards {
+    display: flex;
+}
+
+
+.c1 {
+    width: 30%;
+    height: 10%;
+    overflow: hidden;
+    margin: 2%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+    -moz-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+    box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+}
+
+.c1:hover {
+ 
+    background-color: white;
+    transition: 0.5s;
+}
+
+.linkcard1 {
+    text-decoration: none;
+}
+
+.card1 {
+    display: flex;
+}
+
+#tloumini {
+    margin: 5px;
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.textcard1 {
+    font-size: 21px;
+    margin: 5%;
+    color: #71698b;
+}
+
+#titulocard1{
+    font-size:30px;
+}
+
+#textocard1{
+    font-size: 14px;
+}
+
+.c2 {
+    width: 30%;
+    height: 10%;
+    overflow: hidden;
+    margin: 2%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+    -moz-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+    box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+}
+
+.c2:hover {
+  
+    background-color: white;
+    transition: 0.5s;
+}
+
+.linkcard2 {
+    text-decoration: none;
+}
+
+.card2 {
+    display: flex;
+}
+
+#Euphoriamini {
+    margin: 5px;
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.textcard2 {
+    font-size: 21px;
+    margin: 5%;
+    color: #71698b;
+}
+
+#titulocard2{
+    font-size:30px;
+}
+
+#textocard2{
+    font-size: 14px;
+}
+
+.c3 {
+
 }
 
 .carrossel li {
@@ -111,6 +244,7 @@ body {
 }
 
 .c2 {
+
     width: 30%;
     height: 10%;
     overflow: hidden;
@@ -119,6 +253,290 @@ body {
     -webkit-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
     -moz-box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
     box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+
+}
+
+.c3:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
+.linkcard3 {
+    text-decoration: none;
+}
+
+.card3 {
+    display: flex;
+}
+
+#BBmini {
+    margin: 5px;
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.textcard3 {
+    font-size: 21px;
+    margin: 5%;
+    color: #71698b;
+}
+
+#titulocard3{
+    font-size:30px;
+}
+
+#textocard3{
+    font-size: 14px;
+}
+
+
+/*poster*/
+.posters {
+    font-family: 'dubai medium';
+    margin: 0%;
+    padding: 0;
+}
+
+.carousel{
+    height: 600px; 
+    perspective: 250px;
+}
+
+.carousel .carousel-item {
+    width: 700px;
+    padding-top: 20px;
+    height: 100% !important;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.img-area {
+    width: 200px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden; 
+    border-radius:5px;
+    border: #fff;
+}
+
+.img-area .poster {
+    width: 100%;
+
+}
+
+.poster{
+    border-radius: 5px;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+.testi p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.9;
+    margin-bottom: 0;
+}
+
+.testi h4 {
+    margin-top: -30px;
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+}
+
+
+
+/*responsividade*/
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+        font-size: 20px;
+    }
+
+    #titulo0 {
+        font-size: 30px;
+        margin-top: 10px;
+        padding: 10px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .mobile {
+        height: 150px;
+        width: 300px;
+    }
+
+    .carrossel {
+        width: 300px;
+        height: 150px;
+        overflow: hidden;
+        outline: 3px solid cyan;
+        margin: 10px auto;
+    }
+    
+    .carrossel ul {
+        display: flex;
+        list-style: none;
+        width: 1200px;
+        height: 150px;
+    }
+
+    #footer {
+        margin-top: 20%;
+        bottom: 0;
+        left: 0;
+    }
+
+    @keyframes slide {
+        0% {
+            left: 0px
+        }
+    
+        30% {
+            left: -300px
+        }
+    
+        60% {
+            left: -600px
+        }
+    
+        90% {
+            left: -900px
+        }
+    
+        120% {
+            left: -1200px
+        }
+    }
+
+/*fim banner */
+
+    .cards {
+        display: inline;
+        align-items: center;
+    
+    }
+
+    .c1 {
+        width: 75%;
+        height: 5%;
+        overflow: hidden;
+        margin: 13%;
+        margin-bottom: 28px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 0px 17px 8px rgba(113, 55, 139, 1);
+        -moz-box-shadow: 0px 0px 17px 8px rgba(113, 55, 139, 1);
+        box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+    }
+    
+    .c1:hover {
+        width: 80%;
+        background-color: white;
+        
+    }
+    
+    .linkcard1 {
+        text-decoration: none;
+    }
+    
+    .card1 {
+        display: inline;
+    }
+    
+    #tloumini {
+        margin: 13%;
+        width: 70%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    
+    .textcard1 {
+        margin: 5%;
+        color: #71698b;
+    }
+
+    .c2 {
+        width: 75%;
+        height: 5%;
+        overflow: hidden;
+        margin: 13%;
+        margin-bottom: 28px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 0px 17px 8px rgba(113, 55, 139, 1);
+        -moz-box-shadow: 0px 0px 17px 8px rgba(113, 55, 139, 1);
+        box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+    }
+    
+    .c2:hover {
+        width: 80%;
+        background-color: white;
+        
+    }
+    
+    .linkcard2 {
+        text-decoration: none;
+    }
+    
+    .card2 {
+        display: inline;
+    }
+    
+    #Euphoriamini {
+        margin: 13%;
+        width: 70%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    
+    .textcard2 {
+        margin: 5%;
+        color: #71698b;
+    }
+
+    .c3 {
+        width: 75%;
+        height: 5%;
+        overflow: hidden;
+        margin: 13%;
+        margin-bottom: 28px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 0px 17px 8px rgba(113, 55, 139, 1);
+        -moz-box-shadow: 0px 0px 17px 8px rgba(113, 55, 139, 1);
+        box-shadow: 0px 0px 17px 8px rgba(113, 105, 139, 1);
+    }
+    
+    .c3:hover {
+        width: 80%;
+        background-color: white;
+        
+    }
+    
+    .linkcard3 {
+        text-decoration: none;
+    }
+    
+    .card3 {
+        display: inline;
+    }
+    
+    #BBmini {
+        margin: 13%;
+        width: 70%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    
+    .textcard3 {
+        margin: 5%;
+        color: #71698b;
+    }
+
+
+}
+
 }
 
 .c2:hover {
@@ -374,3 +792,4 @@ body {
 }
 
    
+
