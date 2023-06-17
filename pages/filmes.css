@@ -186,20 +186,18 @@ h1 {
 
 @media (max-width: 600px) {
 
-    .main {
+  .main {
         flex-direction: column;
-    }
+    } 
 
     .galery,
     .asaide {
         width: 100%;
-        padding: 20px;
         
        
     }
 
     .galery .fotos a {
-        display: flex;
         margin-bottom: 10px;
         text-align: center;
     }
@@ -211,7 +209,7 @@ h1 {
     }
 
     .card2 {
-        width: 100%;
+        width: 90%;
         display: flex;
     }
 
