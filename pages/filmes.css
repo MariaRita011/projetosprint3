@@ -245,3 +245,10 @@ section, aside {
 }
 }
 
+#footer {
+    margin-top: 20%;
+    bottom: 0;
+    left: 0;
+    display: block;
+}
+
