@@ -10,6 +10,9 @@ ul{
     text-decoration: none;
     list-style: none;
 }
+h1{
+    margin: 10px;
+}
 #filmeinfo{
     color:aliceblue;
     justify-content: center;
@@ -90,78 +93,95 @@ hr{
 #titulo{
     font-size: 400%;
 }
-h1{
-    padding-left: 30px;
+#trailertext {
+    margin: 10px;
+    font-size: 40px;
+    display: none;
+    text-align: center;
 }
 
+#logoytb {
+    display: none;
+}
 
-        /* Responsivo */
-        @media (max-width: 600px) {
-            body {
-                overflow-x: hidden;
-                font-size: 20px;
-            }
+@media (max-width: 768px) {
+    h1 {
+        font-size: 25px;
+        margin: 0 10px;
+    }
 
-           
+    #info {
+        flex-direction: column;
+    }
 
-            #yt{
-                margin-left: 25%;
-                width: 35vh;
-            }
+    li {
+        text-align: left;
+        padding: 0;
+        margin: 10px;
+        font-size: 23px;
+    }
 
-            #tituloinicio h1 {
-                text-align: center;
-                font-size: 24px;
-                margin-bottom: -5%;
-            }
+    ul {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
 
-            ul {
-                display: inline;
-                margin-left: 0%;
-            }
+    #ytmini {
+        display: none;
+    }
 
-            li {
-                text-align: left;
-                padding: 0;
-                margin: 10px;
-                text-align: left;
-                font-size: 23px;
-            }
+    #capa {
+        width: 80%;
+        height: 160%;
+    }
 
-            #generos ul {
-                margin-left: 0;
-                padding: 0;
-            }
+    #poster {
+        text-align: center;
+    }
 
-            #filmeinfo {
-                flex-direction: column;
-                padding-right: 10px;
-                width: auto;
-              
-            }
+    #trailertext {
+        display: block;
+    }
 
-            #capa {
-                width: 100%;
-                height: auto;
-                margin-left: 21%;
-            }
+    #logoytb {
+        display: block;
+        width: 60%;
+        margin: auto;
+    }
 
-            #info{
-                display: inline;
-            }
+    #generos ul {
+        margin: 0 10px;
+    }
 
-            #capa{
-                align-items: center;
-                width: 60%;
-            }
+    .texto2 {
+        font-size: 20px;
+        text-align: justify;
+    }
 
-            .caixa {
-                flex-direction: column;
-                margin: 20px;
-                padding-right: 10px;
-                width: auto;
-            }
-             section{
-                margin-left: 5%;
-             }
-        }
+    .ondeass {
+        width: 100px;
+        height: 100px;
+    }
+
+    #onde {
+        text-align: center;
+    }
+
+    #pfp {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .nomecomentario {
+        font-size: 30px;
+    }
+
+    .reviewetc {
+        margin: 10px;
+        text-align: justify;
+        margin-right: -10px;
+        font-size: 20px;
+    }
+}

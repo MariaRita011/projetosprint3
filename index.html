@@ -16,95 +16,98 @@
 <body>
     <!--Header-->
     <header>
-<style>
-    /*Estilo do botão*/
-.dropbtn {
-    background-color: #03001C;
-    color: white;
-    padding: 16px;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-    margin: 10px;
-    border-radius: 10px;
-    transition: 0.7s;
-}
 
-/*Estilo Hover do Botão*/
-.dropdownMenu:hover .dropbtn {
-    background-color: #1d1a3e;
-    transition: 0.7s;
-}
+        <!--Css da header-->
+        <style>
+            /*Estilo do botão*/
+            .dropbtn {
+                background-color: #03001C;
+                color: white;
+                padding: 16px;
+                font-size: 20px;
+                border: none;
+                cursor: pointer;
+                margin: 10px;
+                border-radius: 10px;
+                transition: 0.7s;
+            }
 
-
-/*Estilo Div do Dropdown*/
-.dropdownMenu {
-    position: relative;
-    display: inline-block;
-}
-
-/*Deixando o Dropdown escondido e Estilo*/
-.dropdownMenu-content {
-    display: none;
-    position: absolute;
-    background-color: #03001C;
-    width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 999;
-}
-
-/*Mostrando o DropDown na tela */
-.dropdownMenu:hover .dropdownMenu-content {
-    display: block;
-}
-
-/*Links das páginas do DropDown*/
-.dropdownMenu-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    transition: 0.7s;
-    font-size: 20px;
-}
-
-/*Hover Link Das Páginaas do DropDown*/
-.dropdownMenu-content a:hover {
-    background-color: #1d1a3e;
-    transition: 0.7s;
-}
+            /*Estilo Hover do Botão*/
+            .dropdownMenu:hover .dropbtn {
+                background-color: #1d1a3e;
+                transition: 0.7s;
+            }
 
 
-/* Mudanndo estilo da header*/
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #03001C;
-}
+            /*Estilo Div do Dropdown*/
+            .dropdownMenu {
+                position: relative;
+                display: inline-block;
+            }
 
-/*Estilos da Logo*/
-#logo {
-    width: 90px;
-    margin: 10px;
-}
+            /*Deixando o Dropdown escondido e Estilo*/
+            .dropdownMenu-content {
+                display: none;
+                position: absolute;
+                background-color: #03001C;
+                width: 100%;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 999;
+            }
 
-/*Estilização Geral*/
-* {
-    margin: 0;
-    padding: 0;
-}
+            /*Mostrando o DropDown na tela */
+            .dropdownMenu:hover .dropdownMenu-content {
+                display: block;
+            }
 
-@media (max-width: 780px) {
-    .dropbtn {
-        font-size: 35px;
-    }
+            /*Links das páginas do DropDown*/
+            .dropdownMenu-content a {
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                transition: 0.7s;
+                font-size: 20px;
+            }
 
-    .dropdownMenu-content a {
-        font-size: 30px;
-    }
-}
-</style>
+            /*Hover Link Das Páginaas do DropDown*/
+            .dropdownMenu-content a:hover {
+                background-color: #1d1a3e;
+                transition: 0.7s;
+            }
+
+
+            /* Mudanndo estilo da header*/
+            header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #03001C;
+            }
+
+            /*Estilos da Logo*/
+            #logo {
+                width: 90px;
+                margin: 10px;
+            }
+
+            /*Estilização Geral*/
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            @media (max-width: 780px) {
+                .dropbtn {
+                    font-size: 35px;
+                }
+
+                .dropdownMenu-content a {
+                    font-size: 30px;
+                }
+            }
+        </style>
+
         <!--HTML da Header-->
 
         <!--Logo-->
@@ -137,28 +140,39 @@ header {
             </div>
         </div>
     </header>
+
+    <!--Em alta(carrossel dos em alta)-->
     <h1 id="titulo0">EM ALTA🔥</h1>
     <main class="main1">
         <article class="banner">
             <div class="carrossel">
                 <ul>
+
+                    <!--The last of us-->
                     <li>
-                        <a href="#" target="_blank">
+                        <a href="pages/modelos/detalhes/thelastofus.html">
                             <img class="mobile" src="assets/images/TLOUBANNER.png">
                         </a>
                     </li>
+
+                    <!--Apenas um show-->
                     <li>
-                        <a href="#" target="_blank">
+                        <a href="pages/modelos/detalhes/apenasumshow.html">
                             <img class="mobile" src="assets/images/RegulaBANNER.png">
                         </a>
                     </li>
+
+
+                    <!--Better call saul-->
                     <li>
-                        <a href="#" target="_blank">
+                        <a href="pages/modelos/detalhes/bettercallsaul.html">
                             <img class="mobile" src="assets/images/BCSbanner.png">
                         </a>
                     </li>
+
+                    <!--Cidade de deus-->
                     <li>
-                        <a href="#" target="_blank">
+                        <a href="pages/modelos/detalhes/cidade de deus.html">
                             <img class="mobile" src="assets/images/CDDbanner.png">
                         </a>
                     </li>
@@ -166,9 +180,13 @@ header {
                 </ul>
             </div>
         </article>
+
+        <!--cards-->
         <article class="cards">
+
+            <!--The last of us-->
             <div class="c1">
-                <a href="#" target="_blank" class="linkcard1">
+                <a href="pages/modelos/detalhes/thelastofus.html" class="linkcard1">
                     <div class="card1">
                         <img id="tloumini" src="assets/images/tlouuuu.png" alt="The last Of Us">
                         <div class="textcard1">
@@ -179,8 +197,10 @@ header {
                     </div>
                 </a>
             </div>
+
+            <!--Euphoria-->
             <div class="c2">
-                <a href="#" target="_blank" class="linkcard2">
+                <a href="pages/euphoria.html" class="linkcard2">
                     <div class="card2">
                         <img id="Euphoriamini" src="assets/images/euphoriaa.png" alt="Euphoria">
                         <div class="textcard2">
@@ -191,8 +211,10 @@ header {
                     </div>
                 </a>
             </div>
+
+            <!--Breaking bad-->
             <div class="c3">
-                <a href="#" target="_blank" class="linkcard3">
+                <a href="pages/modelos/detalhes/breakingbad.html" class="linkcard3">
                     <div class="card3">
                         <img id="BBmini" src="assets/images/breakajkq.png" alt="Breaking Bad">
                         <div class="textcard3">
@@ -205,18 +227,23 @@ header {
             </div>
         </article>
 
+<!--Poster interativo-->
         <article class="posters">
             <div class="carousel">
-                <a class="carousel-item" href="pages/modelos/detalhes/stevenuniverse.html">
+
+                <!--Steven Universo-->
+                <a class="carousel-item" href="pages/modelos/detalhes/StevenUniverso.html">
                     <div class="testi">
                         <div class="img-area">
-                            <img class="poster" src="assets/images/321235.jpg-r_1280_720-f_jpg-q_x-xxyxx.jpg" alt="">
+                            <img class="poster" src="assets/images/321235.jpg-r_1280_720-f_jpg-q_x-xxyxx.jpg" alt="Steven Universo">
                         </div>
                         <p>Steven Universo</p>
                         <h4>8.5/10</h4>
                     </div>
                 </a>
-                <a class="carousel-item" href="/pages/modelos/detalhes/beeandpuppycat.html">
+
+                <!--Bee and Puppycat-->
+                <a class="carousel-item" href="pages/modelos/detalhes/beeandpuppycat.html">
                     <div class="testi">
                         <div class="img-area">
                             <img class="poster" src="assets/images/bap.jpg" alt="">
@@ -225,68 +252,70 @@ header {
                         <h4>9/10</h4>
                     </div>
                 </a>
-                <a class="carousel-item" href="layouts/modelos/detalhes/padrinhosmagicos.html">
+
+                <!--Os Padrinhos Mágicos-->
+                <a class="carousel-item" href="layouts/modelos/detalhes/Os Padrinhos Mágicos.html">
                     <div class="testi">
                         <div class="img-area">
-                            <img class="poster" src="assets/images/Os padrinhos magicos.png" alt="">
+                            <img class="poster" src="assets/images/Os padrinhos magicos.png" alt="Os Padrinhos Mágicos">
                         </div>
                         <p>Os Padrinhos Mágicos</p>
                         <h4>8/10</h4>
                     </div>
                 </a>
-                <a class="carousel-item" href="#">
+
+                <!--Saw-->
+                <a class="carousel-item" href="pages/modelos/detalhes/jogosmortais.html">
                     <div class="testi">
                         <div class="img-area">
-                            <img class="poster" src="assets/images/saw.png" alt="">
+                            <img class="poster" src="assets/images/saw.png" alt="Saw">
                         </div>
                         <p>Saw</p>
                         <h4>10/10</h4>
                     </div>
                 </a>
-                <a class="carousel-item" href="#">
+
+                <!--Hora de aventura-->
+                <a class="carousel-item" href="pages/modelos/detalhes/horadeaventura.html">
                     <div class="testi">
                         <div class="img-area">
-                            <img class="poster" src="assets/images/422873.jpg" alt="">
+                            <img class="poster" src="assets/images/422873.jpg" alt="Hora de Aventura">
                         </div>
                         <p>Hora de Aventura</p>
                         <h4>9/10</h4>
                     </div>
                 </a>
-                <a class="carousel-item" href="#">
+
+                <!--Apenas um Show-->
+                <a class="carousel-item" href="pages/modelos/detalhes/apenasumshow.html">
                     <div class="testi">
                         <div class="img-area">
-                            <img class="poster" src="pages/modelos/imagensmodelo/regularshow.jpg" alt="">
+                            <img class="poster" src="pages/modelos/imagensmodelo/regularshow.jpg" alt="Apenas um show">
                         </div>
                         <p>Apenas um show</p>
                         <h4>10/10</h4>
                     </div>
                 </a>
-                <a class="carousel-item" href="#">
+
+                <!--Jujutsu Kainsen-->
+                <a class="carousel-item" href="pages/modelos/detalhes/jujutsu-kaisen.html">
                     <div class="testi">
                         <div class="img-area">
-                            <img class="poster" src="pages/modelos/imagensmodelo/jjk.jpeg" alt="">
+                            <img class="poster" src="pages/modelos/imagensmodelo/jjk.jpeg" alt="Jujutsu Kainsen">
                         </div>
                         <p>Jujutsu Kaisen</p>
                         <h4>10/10</h4>
-                    </div>
-                </a>
-                <a class="carousel-item" href="#">
-                    <div class="testi">
-                        <div class="img-area">
-                            <img class="poster" src="pages/modelos/imagensmodelo/The_Batman_poster.jpg" alt="">
-                        </div>
-                        <p>The Batman</p>
-                        <h4>8/10</h4>
                     </div>
                 </a>
 
             </div>
         </article>
 
+        <!--Cards 2-->
         <article class="outros">
             <article class="cards">
                 <div class="c1">
-                    <a href="#" target="_blank" class="linkcard1">
+                    <a href="pages/oscar.html"  class="linkcard1">
                         <div class="card1">
                             <img id="tloumini" src="assets/images/oscarr.png" alt="Oscar">
                             <div class="textcard1">
@@ -297,18 +326,18 @@ header {
                     </a>
                 </div>
                 <div class="c2">
-                    <a href="#" target="_blank" class="linkcard2">
+                    <a href="pages/emmy2022.html" class="linkcard2">
                         <div class="card2">
                             <img id="Euphoriamini" src="assets/images/emmyyyyy.png" alt="Euphoria">
                             <div class="textcard2">
                                 <h1 id="titulocard2">Emmy 2023</h1>
-                                <p id="textocard2">Veja os principais ganhadores do Emmy 2022</p>
+                                <p id="textocard2">Confira aqui os principais ganhadores do Emmy 2022</p>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="c3">
-                    <a href="#" target="_blank" class="linkcard3">
+                    <a href="pages/enem.html" class="linkcard3">
                         <div class="card3">
                             <img id="BBmini" src="assets/images/Vesti Bular.png" alt="Vestibular">
                             <div class="textcard3">
@@ -341,6 +370,8 @@ header {
             }
         });
     </script>
+    <iframe src="layouts/footer.html" frameborder="0" scrolling="no" width="100%"></iframe>
+
 </body>
 
 

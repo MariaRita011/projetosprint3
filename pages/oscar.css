@@ -290,6 +290,10 @@ h2{
     transform: scale(1) translateZ(0);
     box-shadow: 0 15px 24px rgba(0,0,0,0.11);
 }
+
+#logoytb {
+    display: none;
+}
 @media (max-width: 600px) {
     .main {
         flex-direction: column;
@@ -325,4 +329,13 @@ h2{
     padding: 0;
     justify-content: center;
  }
+
+#logoytb {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+#ytmini {
+    display: none;
+}
 }

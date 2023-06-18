@@ -81,6 +81,13 @@ hr{
     padding-top: 20px;
 }
 
+h1 {
+    margin: 10px;
+}
+
+#titt {
+    margin: 10px;
+}
 @media (max-width: 600px) {
     .main {
         flex-direction: column;

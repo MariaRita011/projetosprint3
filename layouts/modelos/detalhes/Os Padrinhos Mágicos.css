@@ -1,18 +1,18 @@
 body{
+    color: #ffffff;
     font-family: 'dubai medium';
-    background-image: linear-gradient(#76b671,black, black);
+    background-image: linear-gradient(#569c8f,black, black);
     color:aliceblue;
-    padding: 0%;
-    margin: 0%;
+    margin: 0;
+    padding: 0;
 }
 ul{
     display: flex;
     text-decoration: none;
     list-style: none;
 }
-li:hover{
-     background-color: rgb(54, 54, 54);
-        border-radius: 30px;
+h1{
+    margin: 10px;
 }
 #filmeinfo{
     color:aliceblue;
@@ -66,12 +66,19 @@ li {
     text-align: center;
     padding: 10px;
 }
+#titulo{
+    font-size: 400%;
+}
+#titulowhere{
+    padding: 0;
+}
 #where{
     text-align: center;
     justify-content: center;
 }
 #channels{
     justify-content: center;
+    padding: 0;
 }
 .comentario{
     display: flex;
@@ -84,9 +91,102 @@ li {
 #pfp{
     width: 5%;
     height: 5%;
+    border-radius: 50px;
 }
 hr{
     opacity: 0.2;
     outline: none;
-    width: 1000px;
+}
+#trailertext {
+    margin: 10px;
+    font-size: 40px;
+    display: none;
+    text-align: center;
+}
+
+#logoytb {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 25px;
+        margin: 0 10px;
+    }
+
+    #info {
+        flex-direction: column;
+    }
+
+    li {
+        text-align: left;
+        padding: 0;
+        margin: 10px;
+        font-size: 23px;
+    }
+
+    ul {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    #ytmini {
+        display: none;
+    }
+
+    #capa {
+        width: 80%;
+        height: 160%;
+    }
+
+    #poster {
+        text-align: center;
+    }
+
+    #trailertext {
+        display: block;
+    }
+
+    #logoytb {
+        display: block;
+        width: 60%;
+        margin: auto;
+    }
+
+    #generos ul {
+        margin: 0 10px;
+    }
+
+    .texto2 {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .ondeass {
+        width: 100px;
+        height: 100px;
+    }
+
+    #onde {
+        text-align: center;
+    }
+
+    #pfp {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .nomecomentario {
+        font-size: 30px;
+    }
+
+    .reviewetc {
+        margin: 10px;
+        text-align: justify;
+        margin-right: -10px;
+        font-size: 20px;
+    }
 }

@@ -293,6 +293,17 @@ h2{
     box-shadow: 0 15px 24px rgba(0,0,0,0.11);
 }
 
+#ytbmlhrmmnts {
+    text-align: center;
+}
+
+#txtmlhrmmnts {
+    font-size: 40px;
+    margin: 10px;
+}
+#logoytb {
+    display: none;
+}
 @media (max-width: 600px) {
     .main {
         flex-direction: column;
@@ -310,6 +321,21 @@ h2{
 
     .materia {
         font-size: 20px;
+    }
+    .card2{
+        width: 95%;
+
+      }
+      #logoytb {
+        display: block;
+        width: 60%;
+        margin: auto;
+    }
+    #ytmini {
+        display: none;
+    }
+    #txtmlhrmmnts {
+        font-size:40px;
     }
 
 }

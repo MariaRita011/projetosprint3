@@ -2,8 +2,8 @@ body {
     font-family: 'dubai medium';
     background-image: linear-gradient(#306e6a, black, black);
     color: aliceblue;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -41,7 +41,7 @@ li:hover {
 #capa {
     width: 265px;
     height: 340px;
-    margin: 0;
+    margin: 0%;
 }
 
 .caixa {
@@ -58,7 +58,6 @@ li:hover {
 
 #generos ul {
     margin-left: 250px;
-    padding: 0;
 }
 
 #generos {
@@ -94,7 +93,7 @@ li {
 }
 
 .nomecomentario {
-    margin-top: 0;
+    margin-top: 0px;
     margin-left: 10px;
 }
 
@@ -106,7 +105,97 @@ li {
 hr {
     opacity: 0.2;
     outline: none;
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
+}
+
+#trailertext {
+    margin: 10px;
+    font-size: 40px;
+    display: none;
+    text-align: center;
+}
+
+#logoytb {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 25px;
+        margin: 0 10px;
+    }
+
+    #info {
+        flex-direction: column;
+    }
+
+    li {
+        text-align: left;
+        padding: 0;
+        margin: 10px;
+        font-size: 23px;
+    }
+
+    ul {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    #ytmini {
+        display: none;
+    }
+
+    #capa {
+        width: 80%;
+        height: 160%;
+    }
+
+    #poster {
+        text-align: center;
+    }
+
+    #trailertext {
+        display: block;
+    }
+
+    #logoytb {
+        display: block;
+        width: 60%;
+        margin: auto;
+    }
+
+    #generos ul {
+        margin: 0 10px;
+    }
+
+    .texto2 {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .ondeass {
+        width: 100px;
+        height: 100px;
+    }
+
+    #onde {
+        text-align: center;
+    }
+
+    #pfp {
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .nomecomentario {
+        font-size: 30px;
+    }
+
+    .reviewetc {
+        margin: 10px;
+        text-align: justify;
+        margin-right: -10px;
+        font-size: 20px;
+    }
 }
