@@ -669,5 +669,8 @@ h2{
     .card2 {
         width: 100%;
     }
+    .galery {
+        flex-direction: column;
+    }
 }
 
